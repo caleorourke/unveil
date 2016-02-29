@@ -10,13 +10,21 @@
 # Project
 # ==============================
 
-title:          "Michael O'Rourke"
+title:          Michael O'Rourke
 headline:       I define and design products for cloud markets.
 tagline:        Product Management and Design
 role:           Product Manager
 license:        MIT
+
+# ==============================
+# SEO
+# ==============================
+
 keywords:       "caleorourke,career,cloud computing,dallas,design,dfw,employment,experience,history,job,manager,management,marketing,michael o'rourke,position,product,profession,project,resume,rourke,scrum,texas,tx,work"
-description:    "Michael O'Rourke is forward-thinking product manager with experience managing the strategy and execution for high-tech products. He is tech-savvy and analytical with extensive knowledge in Product Management, Development, Program Management, and Marketing. Michael currently works for IBM Cloud in Dallas, Texas."
+description:    "Michael O'Rourke is a forward-thinking Product Manager for high-tech products in Dallas, Texas."
+url:            http://thisismichaelorourke.com
+author:         Michael O'Rourke
+logo:           public/img/nav-logo.png
 
 # ==============================
 # Server
@@ -31,3 +39,5 @@ exclude:        ["Gruntfile.js",
                  "node_modules",
                  "package.json",
                  "README.md"]
+gems:
+  - jekyll-seo-tag
