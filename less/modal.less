@@ -1,0 +1,184 @@
+/*
+ * modal.less
+ *
+ * Modal properties should always be defined in modal.less. This prevents
+ * issues with conflicting properties. Here, you can edit or add new modal
+ * properties. Remember to comb this stylesheet before committing.
+ *
+ */
+
+.modal-open {
+  overflow: hidden;
+  .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  &.fade {
+    .modal-dialog {
+      .i-transition(transform .6s ease-out);
+      .i-transform(translate(0,-25%));
+    }
+  }
+  &.in {
+    .modal-dialog {
+      .i-transform(translate(0,0));
+    }
+  }
+}
+
+/* =========================
+   Dialog
+   ========================= */
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+
+  @media (min-width: 768px) {
+    width: 425px;
+    margin: 30px auto;
+  }
+}
+
+/* =========================
+   Content
+   ========================= */
+
+.modal-content {
+  position: relative;
+  padding-bottom: 30px;
+  background-color: @white;
+  background-clip: padding-box;
+  border: 1px solid @gray90;
+  border-radius: @border-radius-large;
+  outline: 0;
+  box-shadow: 0 3px 9px @gray60;
+
+  @media (min-width: 768px) {
+    box-shadow: 0 6px 15px rgba(0,0,0,.3);
+  }
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.modal-header {
+  padding: 14px;
+  &.close {
+    margin-top: -2px;
+  }
+}
+
+/* =========================
+   Body
+   ========================= */
+
+.modal-body {
+  position: relative;
+  padding: 20px;
+  color: @gray10;
+  h4 {
+    padding-bottom: 0;
+    font-family: @font-family-sans-serif;
+    font-size: 21px;
+    line-height: @line-height-xsmall;
+    letter-spacing: @letter-spacing-small;
+    color: @gray20;
+    text-transform: none;
+  }
+  p {
+    &.modal-tagline {
+      margin-bottom: 6px;
+      font-size: 17px;
+      line-height: @line-height-xsmall;
+      color: @gray30;
+      &.modal-tagline-contact {
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+      &.modal-tagline-resume {
+        margin-bottom: 12px;
+      }
+    }
+    &.modal-paragraph {
+      margin-bottom: 20px;
+      &.modal-paragraph-contact {
+        margin-bottom: 15px;
+        line-height: @line-height-small;
+        color: @gray20;
+      }
+    }
+    &.modal-date {
+      margin-bottom: 15px;
+      letter-spacing: @letter-spacing-small;
+      color: @gray50;
+    }
+    a {
+      &.modal-icon {
+        .i-transition(color .6s);
+        .i-underline-text-hidden();
+        padding: 0 7px 0 10px;
+        font-size: 16.5px;
+        color: @icon-button-color;
+        border-left: 1px dotted @gray70;
+        &:first-child {
+          padding-left: 0;
+          border-left: none;
+        }
+        &.modal-icon-large {
+          font-size: 21px;
+        }
+        &:hover {
+          color: @default-color;
+        }
+      }
+    }
+  }
+}
+
+/* =========================
+   Backdrop
+   ========================= */
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex1040;
+  background-color: @black;
+  &.fade {
+    opacity: 0;
+  }
+  &.in {
+    opacity: .5;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1029px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-sm {
+    width: 300px;
+  }
+}

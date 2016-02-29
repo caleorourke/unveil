@@ -1,0 +1,76 @@
+/*
+ * grid.less
+ *
+ * Grid properties should always be defined in grid.less. This prevents issues
+ * with conflicting properties. Here, you can edit or add new grid properties.
+ * Remember to comb this stylesheet before committing.
+ *
+ */
+
+.container {
+  .i-clearfix();
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+
+  @media (max-width: 992px) {
+    width: 640px;
+    padding: 0;
+  }
+
+  @media (max-width: 767px) {
+    width: 320px;
+  }
+}
+
+/* =========================
+   Columns
+   ========================= */
+
+.col1-1 {
+  position: relative;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+
+  @media (max-width: 992px) {
+    width: 620px !important;
+  }
+
+  @media (max-width: 767px) {
+    width: 300px !important;
+  }
+}
+
+.col1-2 {
+  position: relative;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+
+  @media (max-width: 992px) {
+    width: 620px !important;
+  }
+
+  @media (max-width: 767px) {
+    width: 300px !important;
+  }
+}
+
+.col1-3 {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+
+.col2-3 {
+  position: relative;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+
+  @media (max-width: 767px) {
+    width: 300px !important;
+  }
+}

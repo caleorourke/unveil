@@ -1,0 +1,94 @@
+/*
+ * utilities.less
+ *
+ * A handful of helpful utility classes to add certain behaviors to your
+ * elements. Each utility class should begin with '.u-*' to make it easily
+ * identified in production. Here, you can edit or add new utility classes.
+ * Remember to comb this stylesheet before committing.
+ *
+ */
+
+.u-close {
+  .i-transition(opacity .6s);
+  float: right;
+  -webkit-appearance: none;
+  padding: 0;
+  font-size: 24px;
+  font-weight: @font-weight-bold;
+  line-height: 1;
+  color: @gray30;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  opacity: .2;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.u-text-break {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+.u-min-width {
+  min-width: 76px;
+}
+
+.u-align-bottom {
+  vertical-align: bottom;
+}
+
+.u-pull-left {
+  float: left;
+}
+
+.u-pull-right {
+  float: right;
+}
+
+.u-pull-center {
+  display: inline-block;
+  float: none;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-padding-removed {
+  padding: 0;
+  border: 0;
+}
+
+.u-padding-added {
+  padding-bottom: 121px;
+}
+
+.u-border-removed {
+  border: 0;
+}
+
+.u-border-bottom-removed {
+  border-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .u-hidden-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-hidden-tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .u-hidden-mobile {
+    display: none;
+  }
+}

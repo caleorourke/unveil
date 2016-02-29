@@ -1,0 +1,12 @@
+#
+# * Localized data file. Do not edit existing values. Use spaces only, no tabs.
+# * Wrap quotes around words or phrases that contain commas or apostrophes.
+#
+
+austin: "Austin, Texas"
+dallas: "Dallas, Texas"
+dfw:    "Dallas/Fort Worth Area"
+fate:   "Fate, Texas"
+plano:  "Plano, Texas"
+street: 130 Wilmington Drive
+zip:    75189

@@ -1,0 +1,184 @@
+/*
+ * nav.less
+ *
+ * Nav properties should always be defined in nav.less. This allows others
+ * to see how the relative layers work with the animated controls in options.js
+ * and code in nav.html. Remember to comb this stylesheet before committing.
+ *
+ */
+
+header {
+  .i-clearfix();
+  z-index: @zindex1010;
+  padding: 15px 35px 13px;
+  background-color: @white;
+  box-shadow: 0 1px 0 @gray90;
+
+  @media (max-width: 480px) {
+    padding: 20px;
+  }
+}
+
+/* =========================
+   Logo
+   ========================= */
+
+.nav-logo {
+  display: table;
+  float: left;
+  a {
+    position: relative;
+    display: table-cell;
+    height: 54px;
+    vertical-align: middle;
+
+    @media (max-width: 767px) {
+      padding-top: 4px;
+    }
+  }
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.nav-tagline {
+  position: relative;
+  display: table;
+  float: left;
+  height: 57px;
+  padding: 0 0 0 18px;
+  font-size: 13.5px;
+  color: @gray40;
+  span {
+    display: table-cell;
+    padding: 0 0 0 18px;
+    vertical-align: middle;
+    border-left: 1px dotted @gray70;
+  }
+
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+
+/* =========================
+   Objects
+   ========================= */
+
+@media (min-width: 1000px) {
+  .nav-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-btn {
+    float: right;
+    width: 24px;
+    margin-top: 18px;
+    cursor: pointer;
+  }
+  .nav-bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin: 3px auto;
+    background-color: @gray10;
+    border-radius: 1px;
+  }
+}
+
+/* =========================
+   Nav Menu
+   ========================= */
+
+nav {
+  position: relative;
+  z-index: @zindex1000;
+  display: table;
+  float: right;
+  height: 56px;
+  margin: 0 auto;
+  background-color: @white;
+
+  .nav-menu {
+    display: table-cell;
+    vertical-align: middle;
+    li {
+      position: relative;
+      float: left;
+      margin: 0 0 0 18px;
+      a {
+        z-index: @zindex70;
+        display: block;
+        padding: 3px 0 0;
+        font-size: 11px;
+        font-weight: @font-weight-normal;
+        letter-spacing: .02em;
+        color: @gray10;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .nav-menu-line {
+        .i-transition(color .6s ease);
+        position: absolute;
+        left: 50%;
+        z-index: @zindex10;
+        width: 30px;
+        margin-top: -5px;
+        margin-left: -15px;
+        font-family: @font-family-sans;
+        font-size: 13px;
+        font-weight: @font-weight-light;
+        color: @white;
+        text-align: center;
+        pointer-events: none;
+
+        @media (max-width: 992px) {
+          display: none !important;
+        }
+      }
+      &.active {
+        .nav-menu-line {
+          .i-transition(color .6s ease);
+          color: @gray30;
+        }
+      }
+    }
+
+    @media (min-width: 1000px) {
+      display: table-cell !important;
+    }
+
+    @media (max-width: 992px) {
+      position: relative;
+      top: 0;
+      z-index: @zindex30;
+      display: none;
+      float: none;
+      width: 100%;
+      padding-top: 24px;
+      list-style: none;
+      border-bottom: 1px solid @gray90;
+      li {
+        display: block;
+        float: none;
+        margin: 0;
+        text-align: center;
+        border-top: 1px solid @gray90;
+        a {
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    display: block;
+    float: none;
+    height: auto;
+    margin: 0;
+    clear: both;
+  }
+}

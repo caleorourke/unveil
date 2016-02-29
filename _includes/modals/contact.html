@@ -1,0 +1,22 @@
+<div class="modal fade" id="contact" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="u-close" data-dismiss="modal" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-avatar">
+          <img class="img-avatar" src="{{page.baseurl}}public/img/michael-orourke.jpg">
+        </div>
+        <h4>{{site.title}}</h4>
+        <p class="modal-tagline modal-tagline-contact">{{site.role}}</p>
+        <p class="modal-paragraph modal-paragraph-contact">{{site.data.location.street}}<br>{{site.data.location.fate}} {{site.data.location.zip}}<br>{{site.data.contact.phone}}<br>{{site.data.contact.email}}</p>
+        <p>
+          <a class="modal-icon fa fa-envelope" href="{{site.data.contact.emailto}}"></a>
+          <a class="modal-icon modal-icon-large fa fa-linkedin" href="{{site.data.contact.linkedin}}" target="_blank"></a>
+          <a class="modal-icon modal-icon-large fa fa-twitter u-align-bottom" href="{{site.data.contact.twitter}}" target="_blank"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

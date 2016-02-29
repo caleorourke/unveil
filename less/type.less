@@ -1,0 +1,88 @@
+/*
+ * type.less
+ *
+ * Typography properties should always be defined in type.less. This
+ * prevents issues with conflicting properties. Here, you can edit or
+ * add new typography properties. Remember to comb this stylesheet
+ * before committing.
+ *
+ */
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: @font-family-sans;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: @font-weight-bold;
+  color: @gray10;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: @font-weight-bold;
+  line-height: 48px;
+  letter-spacing: 5px;
+  color: @gray10;
+  text-transform: uppercase;
+}
+
+h3 {
+  padding: 0 0 3px;
+  font-size: 38px;
+  font-weight: @font-weight-xxlight;
+  line-height: @line-height-medium;
+  letter-spacing: .02em;
+  color: @gray20;
+  text-transform: uppercase;
+}
+
+h4 {
+  padding: 0 0 6px;
+  font-size: 20px;
+  font-weight: @font-weight-bold;
+  line-height: @line-height-small;
+  letter-spacing: @letter-spacing-medium;
+  color: @gray20;
+  text-transform: uppercase;
+}
+
+h5 {
+  padding: 0 0 20px;
+  font-family: @font-family-sans-serif;
+  font-size: 18px;
+  font-weight: @font-weight-normal;
+  letter-spacing: @letter-spacing-xsmall;
+  color: @gray20;
+}
+
+h6 {
+  padding: 10px 0 0;
+  font-size: 12.5px;
+  font-weight: @font-weight-bold;
+  color: @gray50;
+  text-transform: uppercase;
+}
+
+.small {
+  font-size: 13.5px;
+}
+
+.lead {
+  display: block;
+  max-width: 400px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  font-family: @font-family-serif;
+  font-size: 22.5px;
+  font-weight: @font-weight-light;
+  line-height: @line-height-small;
+  letter-spacing: .01em;
+  color: @gray20;
+  text-align: center;
+}

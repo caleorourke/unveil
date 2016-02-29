@@ -1,0 +1,129 @@
+MICHAEL OROURKE
+PRODUCT MANAGEMENT. PRODUCT DEVELOPMENT. FRONT-END DESIGN.
+I define and design products for cloud markets.
+
+130 Wilmington Drive
+Fate, Texas 75189
+Phone: (512) 740-4491
+E-mail: cale.orourke@gmail.com
+Website: http://thisismichaelorourke.com
+
+=====================================
+SUMMARY
+=====================================
+
+Forward-thinking product manager with experience managing the strategy and execution for high-tech products in cloud, web, and digital markets. Recognized for creating niche strategies, aligning business and development teams, and taking new products from concept, to design, to development, to delivery.
+
+Tech-savvy and analytical with a background in Product and Program Management, Front-End Design, and Development. Adept at drilling into marketplaces and nurturing diverse products from cradle to adoption and beyond. Thrives in fast-paced environments with the autonomy to work creatively, take on new challenges, and make key decisions.
+
+=====================================
+HIGHLIGHTS
+=====================================
+
+* 15 years in Product and Program Management
+* Working knowledge of Agile, Lean, DevOps, and Offering Management
+* Degree in Management Information Systems
+* Certified Product Owner, PMP, ScrumMaster, and more
+* Continuing education in Information Technology
+* Proficient with HTML/CSS, Jekyll, jQuery, LESS, Node, and SQL
+
+=====================================
+EXPERIENCE
+=====================================
+
+PRODUCT MANAGER
+IBM Cloud (Dallas, Texas)
+2012-PRESENT
+
+Cultivate pipelines to new markets and design service offerings for a growing cloud ecosystem. Responsible for introducing new cloud solutions to global marketplaces. Report directly to CTO & Cloud Infrastructure OM.
+
+* Establish new verticals in Bluemix, SoftLayer, and IBM Marketplace catalogs
+* Craft business cases, proofs-of-concept, and requirements for dev consumption
+* Enact strategies to reach untapped markets and new growth opportunities
+* Capture market needs and architect plans to ensure whole product success
+* Align technology roadmaps and P&L to drive organic growth and achieve business objectives
+* Work directly with developers, designers, and end-users to transform strategies into empathic products
+
+SENIOR PRODUCT MANAGER
+Neopost ID (Austin, Texas)
+2003-2012
+
+Pivoted product initiatives and market strategies toward developing new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products. Reported to Director of Product Management.
+
+* Reached new markets by transitioning native products to hosted ecosystems
+* Facilitated technology refresh programs to eliminate churn and increase revenue flow
+* Adopted new Agile and Product Portfolio practices, reducing time-to-market by 40%
+* Managed $25M project to transform line-of-business apps into a hosted CRM environment
+* Launched storefront for purchasing Internet-enabled apps on smart devices, increasing attachment rates 29-32% each quarter
+
+TECHNICAL CONSULTANT
+Sprint Nextel (Plano, Texas)
+2000-2002
+
+Spearheaded retail launches for mobile products and provided operational support for system hardware, networks, and back-office systems.
+
+* Ushered in technology induction programs for ION broadband, 3G, and new mobile devices
+* Deployed new firmware builds, onsite implementations, and system updates during planned/unplanned maintenance windows
+* Gathered quantitative data to report failures and serviceability issues
+
+=====================================
+CERTIFICATIONS
+=====================================
+
+PRACTICAL PRODUCT MANAGEMENT CERTIFIED
+Pragmatic Marketing
+2011-ACTIVE
+
+Certified in the principles of Practical Product Management, including how to utilize the Pragmatic Marketing Framework as a standard language for product teams and the key activities necessary to bring profitable, problem-oriented products to market. Other completed courses include "Product Roadmapping" and "Requirements That Work".
+
+PROJECT MANAGEMENT PROFESSIONAL
+Project Management Institute
+2011-ACTIVE
+
+Successfully completed the most industry-recognized certification for project managers. Signifies I speak and understand the global language of project management. Adaptable to working in virtually any industry, with any methodology, and any location.
+
+CERTIFIED SCRUM PRODUCT OWNER
+Scrum Alliance
+2011-ACTIVE
+
+Certified in Scrum practices and principles, enabling me to fulfill the role of Product Owner on any Scrum team. Well-versed in managing the business-side of projects, getting the product out, and doing the best possible job of satisfying all the stakeholders. Includes techniques for maintaining the product backlog and ensuring everyone knows the priorities.
+
+CERTIFIED SCRUM PROFESSIONAL
+Scrum Alliance
+2011-ACTIVE
+
+Successfully demonstrated experience, training, and proven knowledge in the art of Scrum. Expert in improving how Scrum and other Agile methods are implemented for any type of project.
+
+CERTIFIED SCRUMMASTER
+Scrum Alliance
+2010-ACTIVE
+
+Aquired skills to help project teams properly use Scrum, thereby increasing the likelihood of any project's overall success. Firmly understand Scrum values, practices, applications, and attained a level of knowledge and expertise above and beyond typical project managers.
+
+CLOUD COMPUTING CERTIFIED
+Cloud University
+2012-ACTIVE
+
+Completed Cloud University's vendor-neutral certification, thereby demonstrating my knowledge in the foundations of Cloud Computing from both a business and technical standpoint.
+
+NETWORK+ CERTIFIED
+CompTIA
+2007-ACTIVE
+
+Completed CompTIA's ISO-17024 compliant, vendor-neutral technology certification. Verifies I have the necessary skills and knowledge to take on a pivotal role in building, managing, and protecting critical assets of a data network.
+
+=====================================
+EDUCATION
+=====================================
+
+INFORMATION TECHNOLOGY
+Liberty University
+2015-PRESENT
+
+Gaining knowledge in the fields of digital imaging, graphic design, programming, and enterprise technology. Studies include security, web and software development, integration, networking, and design.
+
+MANAGEMENT INFORMATION SYSTEMS
+Liberty University
+2009-2011
+
+Delved into the core foundations of technology, business application software, current programming languages, and the management of developmental cycles in business environments.

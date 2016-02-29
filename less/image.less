@@ -1,0 +1,32 @@
+/*
+ * image.less
+ *
+ * Image properties should always be defined in image.less. This prevents
+ * issues with conflicting properties. Here, you can edit or add new image
+ * properties. Remember to comb this stylesheet before committing.
+ *
+ */
+
+img {
+  &.img-avatar {
+    float: right;
+    width: 155px;
+    height: 158px;
+    margin-top: 2px;
+    border-radius: 20px;
+
+    @media (max-width: 480px) {
+      float: none;
+      width: 130px;
+      height: 133px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  }
+  &.img-arrow {
+    width: 23px;
+    height: 23px;
+    margin-left: 2px;
+    vertical-align: middle;
+  }
+}

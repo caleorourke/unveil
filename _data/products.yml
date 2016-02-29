@@ -1,0 +1,40 @@
+#
+# * Localized data file. Do not edit existing values. Use spaces only, no tabs.
+# * Wrap quotes around words or phrases that contain commas or apostrophes.
+#
+
+aod:
+  title: "AOD SoftLayer"
+  categories: "IaaS, Deep Storage, CDN, Transcoding"
+
+chef-openstack:
+  title: "Chef OpenStack"
+  categories: "IaaS, Automation, Virtual Servers"
+
+cloudant:
+  title: "Cloudant SoftLayer"
+  categories: "PaaS, Big Data, NoSQL"
+
+imeter:
+  title: "iMeter"
+  categories: "PaaS, Payment Gateway, Storefront"
+
+jumpgate:
+  title: "Jumpgate"
+  categories: "IaaS, Open Source, API, Drivers"
+
+message-queue:
+  title: "Message Queue"
+  categories: "PaaS, API, Middleware, Bindings"
+
+postal-accountant:
+  title: "Postal Accountant"
+  categories: "SaaS, Data Aggregator, BI"
+
+private-cloud:
+  title: "Private Clouds"
+  categories: "IaaS, OpenStack, Microservices"
+
+siebel:
+  title: "Siebel CRM"
+  categories: "SaaS, CRM, ETL, Data Platform"

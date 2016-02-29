@@ -1,0 +1,115 @@
+/*
+ * hero.less
+ *
+ * Hero properties should always be defined in hero.less. This prevents issues
+ * with conflicting properties. Here, you can edit or add new hero properties.
+ * Remember to comb this stylesheet before committing.
+ *
+ */
+
+.hero {
+  .i-background-size(cover);
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg-hero.jpg) no-repeat center top;
+}
+
+/* =========================
+   Overlay
+   ========================= */
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  z-index: @zindex30;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: @overlay-color;
+}
+
+/* =========================
+   Container
+   ========================= */
+
+.hero-container {
+  position: absolute;
+  top: 50%;
+  z-index: @zindex80;
+  display: table;
+  width: 100%;
+  height: 140px;
+  margin-top: -70px;
+  text-align: center;
+}
+
+.hero-container-fullscreen {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* =========================
+   Headers
+   ========================= */
+
+.hero-title {
+  margin-bottom: 0;
+  font-size: 52px;
+  font-weight: @font-weight-bold;
+  letter-spacing: @letter-spacing-large;
+  color: @white;
+  text-transform: uppercase;
+
+  @media (max-width: 767px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.hero-tagline {
+  padding: 0;
+  margin: 0;
+  font-family: @font-family-sans;
+  font-size: 29px;
+  font-weight: @font-weight-light;
+  line-height: @line-height-xsmall;
+  letter-spacing: @letter-spacing-large;
+  color: @white;
+
+  @media (max-width: 767px) {
+    font-size: 23px;
+  }
+}
+
+/* =========================
+   Hero Arrow
+   ========================= */
+
+.hero-arrow-down {
+  .i-transition(all .6s ease);
+  position: absolute;
+  bottom: 230px;
+  left: 50%;
+  z-index: @zindex40;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-left: -40px;
+  text-indent: -9999px;
+  background: url(../img/arrow-down.png) no-repeat 15px 23px @bg-arrow-color;
+  background-size: 28px 16px;
+  border: 1px solid @gray40;
+  border-radius: @border-radius-xlarge;
+  &:hover {
+    border: 1px solid @gray90;
+  }
+
+  @media (max-width: 992px) {
+    bottom: 385px;
+  }
+
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}

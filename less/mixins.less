@@ -1,0 +1,266 @@
+/*
+ * mixins.less
+ *
+ * Mixins should always be defined in mixins.less. This allows others to see
+ * the complete list of declared mixins and their properties. Each mixin should
+ * begin with '.i-*' to make it easily identified. Here, you can edit or add
+ * new mixins and mixin properties.
+ *
+ * DO NOT COMB THIS STYLESHEET!
+ *
+ */
+
+/*
+ * 1. Clearfix
+ * 2. Text
+ * 3. Animation
+ * 4. Backface
+ * 5. Background Size
+ * 6. Sizes
+ * 7. Transform
+ * 8. Translate
+ * 9. Transition
+ * 10. Highlight Color
+ * 11. Alignment
+ *
+ */
+
+/* =========================
+   Clearfix
+   ========================= */
+
+.i-clearfix() {
+  &:before {
+    display: table;
+    content: "";
+  }
+  &:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+}
+
+/* =========================
+   Text
+   ========================= */
+
+.i-antialiased-text() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-adjust-text() {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+.i-feature-text-settings() {
+  -webkit-font-feature-settings: "liga", "dlig";
+     -moz-font-feature-settings: "liga=1, dlig=1";
+      -ms-font-feature-settings: "liga", "dlig";
+       -o-font-feature-settings: "liga", "dlig";
+          font-feature-settings: "liga", "dlig";
+}
+
+.i-optimize-text() {
+  text-rendering: optimizeLegibility;
+}
+
+.i-underline-text(@text-color) {
+  background-image: linear-gradient(to right,@text-color 50%,rgba(255,255,255,0) 10%);
+  background-repeat: repeat-x;
+  background-position: 0 16px;
+  background-size: 2px 1px;
+}
+
+.i-underline-modal-text(@text-color) {
+  background-image: linear-gradient(to right,@text-color 50%,rgba(255,255,255,0) 10%);
+  background-repeat: repeat-x;
+  background-position: 0 17px;
+  background-size: 2px 1px;
+}
+
+.i-underline-text-hidden() {
+  background-image: none;
+  &:hover {
+    background-image: none;
+  }
+}
+
+/* =========================
+   Animation
+   ========================= */
+
+.i-animation(@animation) {
+  -webkit-animation: @animation;
+          animation: @animation;
+}
+
+.i-animation-name(@name) {
+  -webkit-animation-name: @name;
+          animation-name: @name;
+}
+
+.i-animation-duration(@duration) {
+  -webkit-animation-duration: @duration;
+          animation-duration: @duration;
+}
+
+.i-animation-timing-function(@timing-function) {
+  -webkit-animation-timing-function: @timing-function;
+          animation-timing-function: @timing-function;
+}
+
+.i-animation-delay(@delay) {
+  -webkit-animation-delay: @delay;
+          animation-delay: @delay;
+}
+
+.i-animation-iteration-count(@iteration-count) {
+  -webkit-animation-iteration-count: @iteration-count;
+          animation-iteration-count: @iteration-count;
+}
+
+.i-animation-direction(@direction) {
+  -webkit-animation-direction: @direction;
+          animation-direction: @direction;
+}
+
+.i-animation-fill-mode(@fill-mode) {
+  -webkit-animation-fill-mode: @fill-mode;
+     -moz-animation-fill-mode: @fill-mode;
+          animation-fill-mode: @fill-mode;
+}
+
+/* =========================
+   Backface
+   ========================= */
+
+.i-backface-visibility(@visibility) {
+  -webkit-backface-visibility: @visibility;
+          backface-visibility: @visibility;
+}
+
+/* =========================
+   Background Size
+   ========================= */
+
+.i-background-size(@background-size) {
+  background-size: @background-size;
+}
+
+/* =========================
+   Sizes
+   ========================= */
+
+.i-box-sizing(@boxmodel) {
+  box-sizing: @boxmodel;
+}
+
+/* =========================
+   Transform
+   ========================= */
+
+.i-transform(@transform) {
+  -webkit-transform: @transform;
+          transform: @transform;
+}
+
+.i-transform-style(@transform-style) {
+  -webkit-transform-style: @transform-style;
+          transform-style: @transform-style;
+}
+
+.i-transform-origin(@origin) {
+  -webkit-transform-origin: @origin;
+          transform-origin: @origin;
+}
+
+/* =========================
+   Translate
+   ========================= */
+
+.i-translate(@x; @y) {
+  -webkit-transform: translate(@x, @y);
+          transform: translate(@x, @y);
+}
+
+.i-translate3d(@x; @y; @z) {
+  -webkit-transform: translate3d(@x, @y, @z);
+          transform: translate3d(@x, @y, @z);
+}
+
+/* =========================
+   Transition
+   ========================= */
+
+.i-transition(@transition) {
+  -webkit-transition: @transition;
+          transition: @transition;
+}
+
+.i-transition-property(@transition-property) {
+  -webkit-transition-property: @transition-property;
+          transition-property: @transition-property;
+}
+
+.i-transition-delay(@transition-delay) {
+  -webkit-transition-delay: @transition-delay;
+          transition-delay: @transition-delay;
+}
+
+.i-transition-duration(@transition-duration) {
+  -webkit-transition-duration: @transition-duration;
+          transition-duration: @transition-duration;
+}
+
+.i-transition-timing-function(@timing-function) {
+  -webkit-transition-timing-function: @timing-function;
+          transition-timing-function: @timing-function;
+}
+
+.i-transition-transform(@transition) {
+  -webkit-transition: -webkit-transform @transition;
+     -moz-transition: -moz-transform @transition;
+          transition: transform @transition;
+}
+
+/* =========================
+   Highlight Color
+   ========================= */
+
+.i-tap-highlight-color(@highlight-color) {
+  -webkit-tap-highlight-color: @highlight-color;
+     -moz-tap-highlight-color: @highlight-color;
+}
+
+/* =========================
+   Alignment
+   ========================= */
+
+.i-align-self(@align-self) {
+  -webkit-align-self: @align-self;
+          align-self: @align-self;
+}
+
+.i-flex-align(@flex-align) {
+  -ms-flex-align: @flex-align;
+}
+
+.i-flex-grow(@flex-grow) {
+  -webkit-flex-grow: @flex-grow;
+          flex-grow: @flex-grow;
+}
+
+.i-flex-item-align(@flex-item-align) {
+  -ms-flex-item-align: @flex-item-align;
+}
+
+.i-flex-line-pack(@flex-line-pack) {
+  -ms-flex-line-pack: @flex-line-pack;
+}
+
+.i-flex-positive(@flex-positive) {
+  -ms-flex-positive: @flex-positive;
+}

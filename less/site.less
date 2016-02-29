@@ -1,0 +1,56 @@
+/*
+ * site.less
+ *
+ * Site properties should always be defined in site.less. This prevents
+ * issues with conflicting properties. Here, you can edit or add new site
+ * properties. Remember to comb this stylesheet before committing.
+ *
+ */
+
+.site {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex1100;
+  background: @gray90;
+}
+
+.site-loading {
+  position: absolute;
+  top: 50%;
+  z-index: @zindex40;
+  width: 100%;
+  height: 220px;
+  margin-top: -110px;
+}
+
+/* =========================
+   Section
+   ========================= */
+
+section {
+  position: relative;
+  display: block;
+  padding: 94px 0 67px;
+  border-bottom: 1px solid @gray90;
+}
+
+/* =========================
+   Anchors
+   ========================= */
+
+#anchor2,
+#anchor3,
+#anchor4,
+#anchor5,
+#anchor6,
+#anchor7 {
+  position: absolute;
+}
+
+.anchor-section {
+  position: absolute;
+  top: -500px;
+}
