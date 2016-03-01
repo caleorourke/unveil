@@ -1,7 +1,7 @@
 /*
  * options.js
  *
- * Updated 2016.02.13
+ * Updated 2016.03.01
  * Code and documentation licensed under the MIT license
  *
  */
@@ -86,7 +86,7 @@ jQuery(document).ready(function() {
     var the_id = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(the_id).offset().top
-    }, 'slow');
+    }, 'fast');
     return false;
   });
 
