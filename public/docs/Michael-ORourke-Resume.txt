@@ -32,10 +32,10 @@ EXPERIENCE
 =====================================
 
 PRODUCT MANAGER
-IBM Cloud (Dallas, Texas)
+SoftLayer, an IBM Company (Dallas, Texas)
 2012-PRESENT
 
-Cultivate pipelines to new markets and design service offerings for a growing cloud ecosystem. Responsible for introducing new cloud solutions to global marketplaces. Report directly to CTO & Cloud Infrastructure OM.
+Cultivate pipelines to new markets and design service offerings for a growing cloud ecosystem. Responsible for introducing new cloud solutions to global marketplaces. Reports to CTO & Cloud Infrastructure OM.
 
 * Establish new verticals in Bluemix, SoftLayer, and IBM Marketplace catalogs
 * Craft business cases, proofs-of-concept, and requirements for dev consumption
@@ -45,7 +45,7 @@ Cultivate pipelines to new markets and design service offerings for a growing cl
 * Work directly with developers, designers, and end-users to transform strategies into empathic products
 
 SENIOR PRODUCT MANAGER
-Neopost ID (Austin, Texas)
+Neopost ID America (Austin, Texas)
 2003-2012
 
 Pivoted product initiatives and market strategies toward developing new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products. Reported to Director of Product Management.
