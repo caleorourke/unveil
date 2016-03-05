@@ -34,23 +34,23 @@ module.exports = function (grunt) {
     clean: {
       assets: ['public/css/main.min.css',
                'public/js/main.min.js',
-               'public/js/library.min.js']
+               'public/js/plugins.min.js']
     },
 
     concat: {
       vendors: {
-        src: ['js/library/jquery-easing.js',
-              'js/library/jquery-display.js',
-              'js/library/jquery-nav.js',
-              'js/library/jquery-flexslider.js',
-              'js/library/jquery-sticky.js',
-              'js/library/jquery-as-pie-progress.js',
-              'js/library/jquery-lettering.js',
-              'js/library/jquery-textillate.js',
-              'js/library/jquery-debounce.js',
-              'js/library/bootstrap-transition.js',
-              'js/library/bootstrap-modal.js'],
-        dest: 'public/js/library.min.js'
+        src: ['js/plugins/jquery-easing.js',
+              'js/plugins/jquery-display.js',
+              'js/plugins/jquery-nav.js',
+              'js/plugins/jquery-flexslider.js',
+              'js/plugins/jquery-sticky.js',
+              'js/plugins/jquery-as-pie-progress.js',
+              'js/plugins/jquery-lettering.js',
+              'js/plugins/jquery-textillate.js',
+              'js/plugins/jquery-debounce.js',
+              'js/plugins/bootstrap-transition.js',
+              'js/plugins/bootstrap-modal.js'],
+        dest: 'public/js/plugins.min.js'
       },
 
       main: {
@@ -71,7 +71,7 @@ module.exports = function (grunt) {
           report: 'min'
         },
         src: '<%= concat.vendors.dest %>',
-        dest: 'public/js/library.min.js'
+        dest: 'public/js/plugins.min.js'
       },
 
       main: {

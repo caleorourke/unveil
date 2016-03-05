@@ -1,11 +1,12 @@
-<!-- Modals -->
-{% include modals/contact.html %}
+{% include modals/contact.html %} <!-- liquid tag insert -->
 
 <header>
   <div class="nav-logo">
-    <a class="nav-top" href="#hero"><img src="{{page.baseurl}}public/img/nav-logo.png" width="43" height="45"></a>
+    <a class="nav-top" href="#hero"><img src="{{page.baseurl}}public/img/nav-logo.png" width="45" height="45"></a>
   </div>
-  <div class="nav-tagline"><span>{{site.tagline}}</span></div>
+  <div class="nav-tagline">
+    <span>{{site.tagline}}</span>
+  </div>
   <div class="nav-btn">
     <span class="nav-bar"></span>
     <span class="nav-bar"></span>
@@ -19,7 +20,7 @@
       <li><a href="#experience">Experience</a>
         <div class="nav-menu-line">....</div>
       </li>
-      <li><a href="#references">References</a>
+      <li><a href="#testimonials">Testimonials</a>
         <div class="nav-menu-line">....</div>
       </li>
       <li><a href="#education">Education</a>

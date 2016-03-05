@@ -10,10 +10,11 @@
 header {
   .i-clearfix();
   z-index: @zindex1010;
-  padding: 15px 35px 13px;
+  padding: 15px 2% 13px;
   background-color: @white;
   box-shadow: 0 0 1px @box-shadow-color;
   opacity: .97;
+  filter: alpha(opacity=97);
 
   @media (max-width: 480px) {
     padding: 20px;
@@ -118,14 +119,16 @@ nav {
         font-size: 11px;
         font-weight: @font-weight-normal;
         letter-spacing: .02em;
-        color: @gray10;
+        color: @gray40;
         text-transform: uppercase;
         cursor: pointer;
-      }
-      &.active {
-        a {
-          color: @gray55 !important;
+        &:hover,
+        &:active {
+          color: @gray10 !important;
         }
+      }
+      &.active > a {
+        color: @gray10 !important;
       }
       .nav-menu-line {
         .i-transition(color .5s ease);

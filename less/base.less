@@ -106,7 +106,8 @@ p {
   a {
     .i-transition(color .5s);
     .i-underline-text(@default-color);
-    &:hover {
+    &:hover,
+    &:active {
       .i-underline-text(@default-color-hover);
       color: @default-color-hover;
     }
@@ -122,7 +123,8 @@ a {
   color: @default-color;
   text-decoration: none;
   background-color: transparent;
-  &:hover {
+  &:hover,
+  &:active {
     color: @default-color-hover;
     text-decoration: none;
     outline: 0;

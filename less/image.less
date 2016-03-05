@@ -24,8 +24,12 @@ img {
     }
   }
   &.img-arrow {
-    width: 18px;
-    height: 18px;
-    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+
+    @media (max-width: 767px) {
+      display: none;
+    }
   }
 }
