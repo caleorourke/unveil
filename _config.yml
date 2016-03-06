@@ -25,6 +25,7 @@ description:    "Michael O'Rourke is a forward-thinking Product Manager for high
 url:            http://thisismichaelorourke.com
 author:         Michael O'Rourke
 logo:           public/img/nav-logo.png
+tracking:       UA-66643656-1
 
 # ==============================
 # Server
