@@ -1,17 +1,22 @@
 {
-  "name": "Unveil",
-  "version": "2.1.0",
+  "name": "unveil",
+  "version": "2.2.0",
+  "homepage": "http://thisismichaelorourke.com",
+  "author": "Michael O'Rourke",
+  "less": "./less/@main.less",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caleorourke/unveil.git"
+    "url": "git+https://github.com/caleorourke/unveil.git"
   },
   "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-uglify": "^1.0.0",
     "grunt-csscomb": "^3.0.0",
-    "grunt-jekyll-pages": "^1.0.6",
+    "grunt-jekyll-pages": "^1.0.7",
     "grunt-jscs": "^2.1.0",
     "grunt-recess": "^1.0.0",
     "grunt-shell": "^1.1.1"
