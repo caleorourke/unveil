@@ -1,7 +1,7 @@
 /*
  * textillate.js
  *
- * Updated 2015.11.04
+ * Updated 2016.03.06
  * Code and documentation licensed under the MIT license
  *
  */
@@ -25,7 +25,7 @@ function HeadlineHandler() {
       in: {
         effect:       'fadeIn',
         delayScale:   1.5,
-        delay:        12,
+        delay:        16,
         sync:         false,
         shuffle:      true,
         reverse:      false
@@ -33,7 +33,7 @@ function HeadlineHandler() {
       out: {
         effect:       'fadeOutDown',
         delayScale:   1.5,
-        delay:        8,
+        delay:        12,
         sync:         false,
         shuffle:      true,
         reverse:      false
