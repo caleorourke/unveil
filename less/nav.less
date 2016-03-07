@@ -10,20 +10,16 @@
 header {
   .i-clearfix();
   z-index: @zindex1010;
-  padding: 15px 35px 15px;
+  padding: 15px 35px 13px;
   background-color: @white;
-  filter: alpha(opacity=97);
+  filter: alpha(opacity=98);
   box-shadow: 0 0 1px @box-shadow-color;
-  opacity: .97;
+  opacity: .98;
 
   @media (max-width: 480px) {
     padding: 20px;
   }
 }
-
-/* =========================
-   Logo
-   ========================= */
 
 .nav-logo {
   display: table;
@@ -40,21 +36,19 @@ header {
   }
 }
 
-/* =========================
-   Header
-   ========================= */
-
 .nav-tagline {
   position: relative;
   display: table;
   float: left;
   height: 57px;
-  padding: 0 0 0 18px;
-  font-size: 13.5px;
-  color: @gray40;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: .02em;
+  font-weight: @font-weight-light;
+  color: @gray20;
   span {
     display: table-cell;
-    padding: 0 0 0 18px;
+    padding-left: 15px;
     vertical-align: middle;
     border-left: 1px dotted @gray70;
   }
@@ -99,9 +93,9 @@ nav {
   position: relative;
   z-index: @zindex1000;
   display: table;
-  float: left;
+  float: right;
   height: 56px;
-  padding-left: 50px;
+  //padding-left: 50px;
   margin: 0 auto;
   background-color: @white;
 
@@ -116,7 +110,6 @@ nav {
         z-index: @zindex70;
         display: block;
         padding: 3px 0 0;
-        font-family: @font-family-sans-default;
         font-size: 12px;
         font-weight: @font-weight-normal;
         color: @gray40;
