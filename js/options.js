@@ -1,7 +1,7 @@
 /*
  * options.js
  *
- * Updated 2016.03.01
+ * Updated 2016.03.08
  * Code and documentation licensed under the MIT license
  *
  */
@@ -36,9 +36,9 @@ jQuery(document).ready(function() {
     goal:       100, // 100%
     size:       80,  // in px
     speed:      40,  // speed of 1/100
-    barcolor:   '#1d92eb',
+    barcolor:   '#61ab63',
     barsize:    '2',
-    trackcolor: '#f5f5f7',
+    trackcolor: '#f5f7f7',
     fillcolor:  'none',
     easing:     'ease'
   });
