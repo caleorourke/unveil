@@ -1,7 +1,7 @@
 /*
  * options.js
  *
- * Updated 2016.03.08
+ * Updated 2016.03.09
  * Code and documentation licensed under the MIT license
  *
  */
@@ -36,9 +36,9 @@ jQuery(document).ready(function() {
     goal:       100, // 100%
     size:       80,  // in px
     speed:      40,  // speed of 1/100
-    barcolor:   '#61ab63',
+    barcolor:   '#f65a5b',
     barsize:    '2',
-    trackcolor: '#f5f7f7',
+    trackcolor: '#f5f6f6',
     fillcolor:  'none',
     easing:     'ease'
   });
@@ -63,7 +63,7 @@ jQuery(document).ready(function() {
   /* Site Loading */
   jQuery(window).load(function() { // makes sure the whole site is loaded
     jQuery('.site-loading').fadeOut(); // will first fade out the loading animation
-    jQuery('.site').delay(250).fadeOut('slow'); // fades out the div that covers the website
+    jQuery('.site').delay(650).fadeOut('slow'); // fades out the div that covers the website
   });
 
   /* Navigation */

@@ -1,7 +1,7 @@
 /*
  * touchevents.js
  *
- * Updated 2016.03.05
+ * Updated 2016.03.09
  * Code and documentation licensed under the MIT license
  *
  */
@@ -16,10 +16,9 @@
   $document.ready(function () {
 
     /* Touch Class */
-    /*
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       $('body').addClass('touch')
-    }*/
+    }
 
     /* Progress Items */
     $('.progress-item').on('click touchend', function (e) {
