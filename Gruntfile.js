@@ -34,7 +34,7 @@ module.exports = function (grunt) {
     clean: {
       assets: ['public/css/main.min.css',
                'public/js/main.min.js',
-               'public/js/plugins.min.js']
+               'public/js/plugin.min.js']
     },
 
     concat: {
@@ -50,7 +50,7 @@ module.exports = function (grunt) {
               'js/plugins/jquery-debounce.js',
               'js/plugins/bootstrap-transition.js',
               'js/plugins/bootstrap-modal.js'],
-        dest: 'public/js/plugins.min.js'
+        dest: 'public/js/plugin.min.js'
       },
 
       main: {
@@ -71,7 +71,7 @@ module.exports = function (grunt) {
           report: 'min'
         },
         src: '<%= concat.vendors.dest %>',
-        dest: 'public/js/plugins.min.js'
+        dest: 'public/js/plugin.min.js'
       },
 
       main: {
@@ -102,13 +102,6 @@ module.exports = function (grunt) {
         },
         src: ['<%= recess.unminify.src %>'],
         dest: '<%= recess.unminify.dest %>'
-      }
-    },
-
-    jscs: {
-      src: ['js/*.js'],
-      options: {
-        config: '.jscsrc'
       }
     },
 
