@@ -25,7 +25,7 @@ function HeadlineHandler() {
       in: {
         effect:       'fadeIn',
         delayScale:   1.5,
-        delay:        9,
+        delay:        12,
         sync:         false,
         shuffle:      true,
         reverse:      false
@@ -33,7 +33,7 @@ function HeadlineHandler() {
       out: {
         effect:       'fadeOutDown',
         delayScale:   1.5,
-        delay:        5,
+        delay:        8,
         sync:         false,
         shuffle:      true,
         reverse:      false
