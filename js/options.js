@@ -62,8 +62,8 @@ jQuery(document).ready(function() {
 
   /* Site Loading */
   jQuery(window).load(function() { // makes sure the whole site is loaded
-    jQuery('.site-loading').fadeOut('slow'); // will first fade out the loading animation
-    jQuery('.site').delay(650).fadeOut('slow'); // fades out the div that covers the website
+    //jQuery('.site-loading').fadeOut(); // will first fade out the loading animation
+    jQuery('.site').delay(350).fadeOut('slow'); // fades out the div that covers the website
   });
 
   /* Navigation */
