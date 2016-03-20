@@ -1,7 +1,7 @@
 /*
  * options.js
  *
- * Updated 2016.03.09
+ * Updated 2016.03.19
  * Code and documentation licensed under the MIT license
  *
  */
@@ -64,6 +64,7 @@ jQuery(document).ready(function() {
   jQuery(window).load(function() { // makes sure the whole site is loaded
     //jQuery('.site-loading').fadeOut(); // will first fade out the loading animation
     jQuery('.site').delay(350).fadeOut('slow'); // fades out the div that covers the website
+    //jQuery('.site').fadeOut('slow'); // fades out the div that covers the website
   });
 
   /* Navigation */
