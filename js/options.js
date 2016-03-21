@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
     speed:      40,  // speed of 1/100
     barcolor:   '#f65a5b',
     barsize:    '2',
-    trackcolor: '#f4f5f5',
+    trackcolor: '#f6f7f7',
     fillcolor:  'none',
     easing:     'ease'
   });
