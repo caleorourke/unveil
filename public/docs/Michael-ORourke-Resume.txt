@@ -12,20 +12,16 @@ Website: http://thisismichaelorourke.com
 SUMMARY
 =====================================
 
-Forward-thinking product manager with experience managing the strategy and execution for high-tech products in cloud, web, and digital markets. Recognized for creating niche strategies, aligning business and development teams, and taking new products from concept, to design, to development, to delivery.
+Forward-thinking product manager with experience managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development teams, and taking new products from concept, to design, to development, to delivery.
 
-Tech-savvy and analytical with a background in Product and Program Management, Front-End Design, and Development. Adept at drilling into marketplaces and nurturing diverse products from cradle to adoption and beyond. Thrives in fast-paced environments with the autonomy to work creatively, take on new challenges, and make key decisions.
+Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at drilling into market spaces and building diverse, high-tech products. Thrives in fast-paced environments with the autonomy to work creatively and make key decisions. Additional qualifications include:
 
-=====================================
-HIGHLIGHTS
-=====================================
-
-* 15 years in Product and Program Management
+* 15 years in Product Management and Software Development
 * Working knowledge of Agile, Lean, DevOps, and Offering Management
 * Degree in Management Information Systems
-* Certified Product Owner, PMP, ScrumMaster, and more
+* Certified Product Owner, PMP, ScrumMaster and six others
+* Proficiency with HTML/CSS, Jekyll, jQuery, LESS, Node and SQL
 * Continuing education in Information Technology
-* Proficient with HTML/CSS, Jekyll, jQuery, LESS, Node, and SQL
 
 =====================================
 EXPERIENCE
@@ -35,26 +31,26 @@ PRODUCT MANAGER
 SoftLayer, an IBM Company (Dallas, Texas)
 2012-PRESENT
 
-Cultivate pipelines to new markets and design service offerings for a growing cloud ecosystem. Responsible for introducing new cloud solutions to global marketplaces. Reports to CTO & Cloud Infrastructure OM.
+Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud solutions in global marketplaces. Report directly to the Chief Technology Officer.
 
-* Establish new verticals in Bluemix, SoftLayer, and IBM Marketplace catalogs
+* Establish new vertical products in Bluemix, SoftLayer, and IBM Marketplace catalogs
 * Craft business cases, proofs-of-concept, and requirements for dev consumption
 * Enact strategies to reach untapped markets and new growth opportunities
-* Capture market needs and architect plans to ensure whole product success
+* Capture market demands and architect plans to ensure whole-product success
 * Align technology roadmaps and P&L to drive organic growth and achieve business objectives
-* Work directly with developers, designers, and end-users to transform strategies into empathic products
+* Work directly with developers, designers, and end-users to transform market needs into empathic feature-sets
 
 SENIOR PRODUCT MANAGER
 Neopost ID (Austin, Texas)
 2003-2012
 
-Pivoted product initiatives and market strategies toward developing new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products. Reported to Director of Product Management.
+Cultivated pipelines to new markets and designed product offerings for new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products. Reported to Director of Product Management.
 
 * Reached new markets by transitioning native products to hosted ecosystems
 * Facilitated technology refresh programs to eliminate churn and increase revenue flow
 * Adopted new Agile and Product Portfolio practices, reducing time-to-market by 40%
 * Managed $25M project to transform line-of-business apps into a hosted CRM environment
-* Launched storefront for purchasing Internet-enabled apps on smart devices, increasing attachment rates 29-32% each quarter
+* Launched storefront for purchasing Internet-enabled apps on smart devices, increasing attachment rates 30-32% each quarter
 
 TECHNICAL PROJECT COORDINATOR
 Sprint Nextel (Plano, Texas)
@@ -63,7 +59,7 @@ Sprint Nextel (Plano, Texas)
 Spearheaded retail launches for mobile products and provided operational support for system hardware, networks, and back-office systems.
 
 * Ushered in technology induction programs for ION broadband, 3G, and new mobile devices
-* Deployed new firmware builds, onsite implementations, and system updates during planned/unplanned maintenance windows
+* Coordinated new firmware builds, onsite implementations, and system updates during planned/unplanned maintenance windows
 * Gathered quantitative data to report failures and serviceability issues
 
 =====================================
