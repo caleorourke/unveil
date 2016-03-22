@@ -1,6 +1,6 @@
 MICHAEL OROURKE
 PRODUCT MANAGEMENT. PRODUCT DEVELOPMENT. FRONT-END DESIGN.
-I define and design products for cloud markets.
+I define and design cloud products.
 
 130 Wilmington Drive
 Fate, Texas 75189
@@ -27,8 +27,8 @@ Tech-savvy and analytical with a background in product and program management, f
 EXPERIENCE
 =====================================
 
-PRODUCT MANAGER
-SoftLayer, an IBM Company (Dallas, Texas)
+PRODUCT PORTFOLIO MANAGER
+IBM Cloud (Dallas, Texas)
 2012-PRESENT
 
 Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud solutions in global marketplaces. Report directly to the Chief Technology Officer.
@@ -38,7 +38,7 @@ Pivot product initiatives and market strategies toward developing a growing clou
 * Enact strategies to reach untapped markets and new growth opportunities
 * Capture market demands and architect plans to ensure whole-product success
 * Align technology roadmaps and P&L to drive organic growth and achieve business objectives
-* Work directly with developers, designers, and end-users to transform market needs into empathic feature-sets
+* Work directly with developers, designers, and customers to transform user/buyer needs into empathic feature-sets
 
 SENIOR PRODUCT MANAGER
 Neopost ID (Austin, Texas)
@@ -68,43 +68,37 @@ CERTIFICATIONS
 
 PRACTICAL PRODUCT MANAGEMENT CERTIFIED
 Pragmatic Marketing
-2011-ACTIVE
+2011
 
 Certified in the principles of Practical Product Management, including how to utilize the Pragmatic Marketing Framework as a standard language for product teams and the key activities necessary to bring profitable, problem-oriented products to market. Other completed courses include "Product Roadmapping" and "Requirements That Work".
 
-PROJECT MANAGEMENT PROFESSIONAL
+PROJECT MANAGEMENT PROFESSIONAL (PMP)
 Project Management Institute
-2011-ACTIVE
+2011
 
 Successfully completed the most industry-recognized certification for project managers. Signifies I speak and understand the global language of project management. Adaptable to working in virtually any industry, with any methodology, and any location.
 
-CERTIFIED SCRUM PRODUCT OWNER
+CERTIFIED SCRUM PRODUCT OWNER (CSPO)
 Scrum Alliance
-2011-ACTIVE
+2011
 
 Certified in Scrum practices and principles, enabling me to fulfill the role of Product Owner on any Scrum team. Well-versed in managing the business-side of projects, getting the product out, and doing the best possible job of satisfying all the stakeholders. Includes techniques for maintaining the product backlog and ensuring everyone knows the priorities.
 
-CERTIFIED SCRUM PROFESSIONAL
+CERTIFIED SCRUM PROFESSIONAL (CSP)
 Scrum Alliance
-2011-ACTIVE
+2011
 
 Successfully demonstrated experience, training, and proven knowledge in the art of Scrum. Expert in improving how Scrum and other Agile methods are implemented for any type of project.
 
-CERTIFIED SCRUMMASTER
+CERTIFIED SCRUMMASTER (CSM)
 Scrum Alliance
-2010-ACTIVE
+2010
 
 Aquired skills to help project teams properly use Scrum, thereby increasing the likelihood of any project's overall success. Firmly understand Scrum values, practices, applications, and attained a level of knowledge and expertise above and beyond typical project managers.
 
-CLOUD COMPUTING CERTIFIED
-Cloud University
-2012-ACTIVE
-
-Completed Cloud University's vendor-neutral certification, thereby demonstrating my knowledge in the foundations of Cloud Computing from both a business and technical standpoint.
-
 NETWORK+ CERTIFIED
 CompTIA
-2007-ACTIVE
+2007
 
 Completed CompTIA's ISO-17024 compliant, vendor-neutral technology certification. Verifies I have the necessary skills and knowledge to take on a pivotal role in building, managing, and protecting critical assets of a data network.
 
@@ -114,12 +108,10 @@ EDUCATION
 
 INFORMATION TECHNOLOGY
 Liberty University
-2015-PRESENT
 
 Gaining knowledge in the fields of digital imaging, graphic design, programming, and enterprise technology. Studies include security, web and software development, integration, networking, and design.
 
 MANAGEMENT INFORMATION SYSTEMS
 Liberty University
-2009-2011
 
 Delved into the core foundations of technology, business application software, current programming languages, and the management of developmental cycles in business environments.
