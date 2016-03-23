@@ -1,7 +1,6 @@
 MICHAEL OROURKE
----------------
 PRODUCT MANAGEMENT. PRODUCT DEVELOPMENT. PRODUCT DESIGN.
-I define and design cloud products.
+*** I define and design cloud products. ***
 
 130 Wilmington Drive
 Fate, Texas 75189
@@ -15,12 +14,12 @@ SUMMARY
 
 Forward-thinking product manager with experience managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development teams, and taking new products from concept, to design, to development, to delivery.
 
-Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at drilling into market spaces and building diverse, high-tech products. Thrives in fast-paced environments with the autonomy to work creatively and make key decisions. Additional qualifications include:
+Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at drilling into market spaces and building diverse, high-tech products. Thrives in fast-paced environments with the autonomy to work creatively and make key decisions. Additional qualifications:
 
 * 15 years in Product Management and Software Development
 * Working knowledge of Agile, Lean, DevOps, and Offering Management
 * Degree in Management Information Systems
-* Certified Product Owner, PMP, ScrumMaster and six others
+* Certified Product Owner, PMP, ScrumMaster and several others
 * Proficiency with HTML/CSS, Jekyll, jQuery, LESS, Node and SQL
 * Continuing education in Information Technology
 
@@ -29,10 +28,10 @@ EXPERIENCE
 =====================================
 
 PRODUCT PORTFOLIO MANAGER
-IBM Cloud (Dallas, Texas)
-2012-PRESENT
+IBM Cloud, 2012-PRESENT
+Dallas, Texas
 
-Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud solutions in global marketplaces. Report directly to the Chief Technology Officer.
+Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud PaaS and IaaS products in global marketplaces. Report directly to the Chief Technology Officer.
 
 * Establish new vertical products in Bluemix, SoftLayer, and IBM Marketplace catalogs
 * Craft business cases, proofs-of-concept, and requirements for dev consumption
@@ -42,8 +41,8 @@ Pivot product initiatives and market strategies toward developing a growing clou
 * Work directly with developers, designers, and customers to transform user/buyer needs into empathic feature-sets
 
 SENIOR PRODUCT MANAGER
-Neopost ID (Austin, Texas)
-2003-2012
+Neopost ID, 2003-2012
+Austin, Texas
 
 Cultivated pipelines to new markets and designed offerings for new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products. Reported to Director of Product Management.
 
@@ -54,42 +53,14 @@ Cultivated pipelines to new markets and designed offerings for new online soluti
 * Launched storefront for purchasing Internet-enabled apps on smart devices, increasing attachment rates 30-32% each quarter
 
 TECHNICAL PROJECT COORDINATOR
-Sprint Nextel (Plano, Texas)
-2000-2002
+Sprint Nextel, 2000-2002
+Plano, Texas
 
 Spearheaded retail launches for mobile products and provided operational support for system hardware, networks, and back-office systems.
 
 * Ushered in technology induction programs for ION broadband, 3G, and new mobile devices
 * Coordinated new firmware builds, onsite implementations, and system updates during planned/unplanned maintenance windows
 * Gathered quantitative data to report failures and serviceability issues
-
-=====================================
-CERTIFICATIONS
-=====================================
-
-PRACTICAL PRODUCT MANAGEMENT CERTIFIED
-Pragmatic Marketing
-2011
-
-PROJECT MANAGEMENT PROFESSIONAL (PMP)
-Project Management Institute
-2011
-
-CERTIFIED SCRUM PRODUCT OWNER (CSPO)
-Scrum Alliance
-2011
-
-CERTIFIED SCRUM PROFESSIONAL (CSP)
-Scrum Alliance
-2011
-
-CERTIFIED SCRUMMASTER (CSM)
-Scrum Alliance
-2010
-
-NETWORK+ CERTIFIED
-CompTIA
-2007
 
 =====================================
 EDUCATION
@@ -104,3 +75,25 @@ MANAGEMENT INFORMATION SYSTEMS
 Liberty University
 
 Core foundations of technology, application software, current programming languages, and managing developmental cycles in business environments.
+
+=====================================
+CERTIFICATIONS
+=====================================
+
+PRACTICAL PRODUCT MANAGEMENT CERTIFIED
+Pragmatic Marketing
+
+PROJECT MANAGEMENT PROFESSIONAL (PMP)
+Project Management Institute
+
+CERTIFIED SCRUM PRODUCT OWNER (CSPO)
+Scrum Alliance
+
+CERTIFIED SCRUM PROFESSIONAL (CSP)
+Scrum Alliance
+
+CERTIFIED SCRUMMASTER (CSM)
+Scrum Alliance
+
+NETWORK+ CERTIFIED
+CompTIA
