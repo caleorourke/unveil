@@ -10,17 +10,12 @@
 header {
   &.nav-header {
     .i-clearfix();
-    .i-transition(all .5s ease-in-out);
     z-index: @zindex1010;
     padding: 15px 35px 13px;
     background-color: @white;
     filter: alpha(opacity=98);
     box-shadow: 0 0 1px @box-shadow-color;
     opacity: .98;
-    display: none;
-    &.is-visible {
-      display: block;
-    }
 
     @media (max-width: 480px) {
       padding: 20px;

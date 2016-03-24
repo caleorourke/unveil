@@ -1,6 +1,5 @@
 MICHAEL OROURKE
-PRODUCT MANAGEMENT. PRODUCT DEVELOPMENT. PRODUCT DESIGN.
-*** I define and design cloud products. ***
+*** Product Manager for Cloud, Web and Digital Marketplaces ***
 
 130 Wilmington Drive
 Fate, Texas 75189
@@ -12,9 +11,9 @@ Website: http://thisismichaelorourke.com
 SUMMARY
 =====================================
 
-Forward-thinking product manager with experience managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development teams, and taking new products from concept, to design, to development, to delivery.
+Forward-thinking product manager with experience managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to design, to development, to delivery.
 
-Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at drilling into market spaces and building diverse, high-tech products. Thrives in fast-paced environments with the autonomy to work creatively and make key decisions. Additional qualifications:
+Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at building diverse, high-tech products in fast-paced environments. Additional qualifications:
 
 * 15 years in Product Management and Software Development
 * Working knowledge of Agile, Lean, DevOps, and Offering Management
@@ -31,7 +30,7 @@ PRODUCT PORTFOLIO MANAGER
 IBM Cloud, 2012-PRESENT
 Dallas, Texas
 
-Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud PaaS and IaaS products in global marketplaces. Report directly to the Chief Technology Officer.
+Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud PaaS and IaaS products in global marketplaces.
 
 * Establish new vertical products in Bluemix, SoftLayer, and IBM Marketplace catalogs
 * Craft business cases, proofs-of-concept, and requirements for dev consumption
@@ -44,7 +43,7 @@ SENIOR PRODUCT MANAGER
 Neopost ID, 2003-2012
 Austin, Texas
 
-Cultivated pipelines to new markets and designed offerings for new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products. Reported to Director of Product Management.
+Cultivated pipelines to new markets and designed offerings for new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products.
 
 * Reached new markets by transitioning native products to hosted ecosystems
 * Facilitated technology refresh programs to eliminate churn and increase revenue flow
@@ -52,7 +51,7 @@ Cultivated pipelines to new markets and designed offerings for new online soluti
 * Managed $25M project to transform line-of-business apps into a hosted CRM environment
 * Launched storefront for purchasing Internet-enabled apps on smart devices, increasing attachment rates 30-32% each quarter
 
-TECHNICAL PROJECT COORDINATOR
+TECHNICAL PROJECT CONSULTANT
 Sprint Nextel, 2000-2002
 Plano, Texas
 
@@ -86,13 +85,13 @@ Pragmatic Marketing
 PROJECT MANAGEMENT PROFESSIONAL (PMP)
 Project Management Institute
 
-CERTIFIED SCRUM PRODUCT OWNER (CSPO)
+CERTIFIED SCRUM PRODUCT OWNER
 Scrum Alliance
 
-CERTIFIED SCRUM PROFESSIONAL (CSP)
+CERTIFIED SCRUM PROFESSIONAL
 Scrum Alliance
 
-CERTIFIED SCRUMMASTER (CSM)
+CERTIFIED SCRUMMASTER
 Scrum Alliance
 
 NETWORK+ CERTIFIED

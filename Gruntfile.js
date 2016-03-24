@@ -60,7 +60,7 @@ module.exports = function (grunt) {
         src: ['js/textillate.js',
               'js/useragent.js',
               'js/touchevents.js',
-              'js/scrollevents.js',
+              //'js/scrollevents.js',
               'js/options.js'],
         dest: 'public/js/main.min.js'
       }
