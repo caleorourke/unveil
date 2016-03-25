@@ -11,16 +11,16 @@ Website: http://thisismichaelorourke.com
 SUMMARY
 =====================================
 
-Forward-thinking product manager with experience managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to design, to development, to delivery.
+Forward-thinking product manager with 15 years experience managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to development, to delivery.
 
-Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at building diverse, high-tech products in fast-paced environments. Additional qualifications:
+Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at building diverse, high-tech products in fast-paced environments.
 
-* 15 years in Product Management and Software Development
-* Working knowledge of Agile, Lean, DevOps, and Offering Management
+ADDITIONAL QUALIFICATIONS
 * Degree in Management Information Systems
-* Certified Product Owner, PMP, ScrumMaster and several others
-* Proficiency with HTML/CSS, Jekyll, jQuery, LESS, Node and SQL
+* Certified Product Owner, PMP, ScrumMaster, and more
+* Working knowledge of Agile, Lean, DevOps, and Offering Management
 * Continuing education in Information Technology
+* Proficient in CSS/LESS, HTML, Jekyll, jQuery, Node, and SQL
 
 =====================================
 EXPERIENCE
