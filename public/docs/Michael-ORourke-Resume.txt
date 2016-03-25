@@ -1,11 +1,10 @@
 MICHAEL OROURKE
 *** Product Manager for Cloud, Web and Digital Marketplaces ***
 
-130 Wilmington Drive
-Fate, Texas 75189
-Phone: 512-740-4491
-E-mail: cale.orourke@gmail.com
-Website: http://thisismichaelorourke.com
+TOWN: Dallas, Texas
+PHONE: 512-740-4491
+EMAIL: cale.orourke@gmail.com
+LINKEDIN: http://www.linkedin.com/in/caleorourke
 
 =====================================
 SUMMARY
@@ -66,12 +65,12 @@ EDUCATION
 =====================================
 
 INFORMATION TECHNOLOGY
-Liberty University
+Liberty University, #22889837
 
 Advanced studies in digital imaging, graphic design, security, web and software integration, networking, and enterprise technology.
 
 MANAGEMENT INFORMATION SYSTEMS
-Liberty University
+Liberty University, #22889837
 
 Core foundations of technology, application software, current programming languages, and managing developmental cycles in business environments.
 
@@ -79,20 +78,20 @@ Core foundations of technology, application software, current programming langua
 CERTIFICATIONS
 =====================================
 
+PROJECT MANAGEMENT PROFESSIONAL (PMP)
+Project Management Institute, #1386298
+
 PRACTICAL PRODUCT MANAGEMENT CERTIFIED
 Pragmatic Marketing
 
-PROJECT MANAGEMENT PROFESSIONAL (PMP)
-Project Management Institute
-
 CERTIFIED SCRUM PRODUCT OWNER
-Scrum Alliance
+Scrum Alliance, #106785
 
 CERTIFIED SCRUM PROFESSIONAL
-Scrum Alliance
+Scrum Alliance, #106785
 
-CERTIFIED SCRUMMASTER
-Scrum Alliance
+CERTIFIED SCRUM MASTER
+Scrum Alliance, #106785
 
 NETWORK+ CERTIFIED
-CompTIA
+CompTIA, #COMP1006245476
