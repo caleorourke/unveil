@@ -1,5 +1,5 @@
 MICHAEL OROURKE
-*** Product Manager for Cloud, Web and Digital Marketplaces ***
+*** Product Manager for Cloud, Web and Digital marketplaces ***
 
 TOWN: Dallas, Texas
 PHONE: 512-740-4491
@@ -10,31 +10,31 @@ LINKEDIN: http://www.linkedin.com/in/caleorourke
 SUMMARY
 =====================================
 
-Forward-thinking product manager with 15 years experience managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to development, to delivery.
+Forward-thinking product manager with expertise in managing the strategy and execution for cloud, web, and digital products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to development, to delivery.
 
 Tech-savvy and analytical with a background in product and program management, front-end design, and software development. Adept at building diverse, high-tech products in fast-paced environments.
 
 ADDITIONAL QUALIFICATIONS
+* 15 years in Product and Program Management
 * Degree in Management Information Systems
 * Certified Product Owner, PMP, ScrumMaster, and more
 * Working knowledge of Agile, Lean, DevOps, and Offering Management
 * Continuing education in Information Technology
-* Proficient in CSS/LESS, HTML, Jekyll, jQuery, Node, and SQL
+* Proficiency in CSS/LESS, HTML, Jekyll, jQuery, Node, and SQL
 
 =====================================
 EXPERIENCE
 =====================================
 
-PRODUCT PORTFOLIO MANAGER
+PRODUCT MANAGER
 IBM Cloud, 2012-PRESENT
 Dallas, Texas
 
 Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud PaaS and IaaS products in global marketplaces.
 
-* Establish new vertical products in Bluemix, SoftLayer, and IBM Marketplace catalogs
+* Establish new vertical products in Bluemix, SoftLayer, and IBM marketplace catalogs
 * Craft business cases, proofs-of-concept, and requirements for dev consumption
 * Enact strategies to reach untapped markets and new growth opportunities
-* Capture market demands and architect plans to ensure whole-product success
 * Align technology roadmaps and P&L to drive organic growth and achieve business objectives
 * Work directly with developers, designers, and customers to transform user/buyer needs into empathic feature-sets
 
@@ -65,33 +65,45 @@ EDUCATION
 =====================================
 
 INFORMATION TECHNOLOGY
-Liberty University, #22889837
+Liberty University
 
-Advanced studies in digital imaging, graphic design, security, web and software integration, networking, and enterprise technology.
+* Advanced studies in imaging, graphic design, security, integration, networking, and enterprise technology.
 
 MANAGEMENT INFORMATION SYSTEMS
-Liberty University, #22889837
+Liberty University
 
-Core foundations of technology, application software, current programming languages, and managing developmental cycles in business environments.
+* Core foundations for technology, software, programming, and development in business environments.
 
 =====================================
 CERTIFICATIONS
 =====================================
 
 PROJECT MANAGEMENT PROFESSIONAL (PMP)
-Project Management Institute, #1386298
+Project Management Institute
+
+* Most industry-recognized certification for project managers in virtually any industry, using any methodology, at any location.
 
 PRACTICAL PRODUCT MANAGEMENT CERTIFIED
 Pragmatic Marketing
 
+* Principles for Pragmatic Marketing standards and how to bring profitable, problem-oriented products to market.
+
 CERTIFIED SCRUM PRODUCT OWNER
-Scrum Alliance, #106785
+Scrum Alliance
+
+* Scrum practices and principles for managing projects, getting products out, grooming product backlogs, and setting priorities.
 
 CERTIFIED SCRUM PROFESSIONAL
-Scrum Alliance, #106785
+Scrum Alliance
 
-CERTIFIED SCRUM MASTER
-Scrum Alliance, #106785
+* Proven expertise in improving how Scrum and other Agile methods are implemented for any project.
+
+CERTIFIED SCRUMMASTER
+Scrum Alliance
+
+* Harness Scrum values to attain knowledge and expertise above and beyond traditional project managers.
 
 NETWORK+ CERTIFIED
-CompTIA, #COMP1006245476
+CompTIA
+
+* Competence in building, managing, and protecting critical assets for data network.
