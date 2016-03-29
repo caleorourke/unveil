@@ -2,8 +2,8 @@
  * nav.less
  *
  * Nav properties should always be defined in nav.less. This allows others
- * to see how the relative layers work with the animated controls in options.js
- * and code in nav.html. Remember to comb this stylesheet before committing.
+ * to see how the relative layers work with the animated controls. Comb this
+ * stylesheet before committing.
  *
  */
 
@@ -12,14 +12,13 @@ header {
     .i-clearfix();
     .i-transform(translateY(0));
     z-index: @zindex1010;
-    padding: 15px 35px 13px;
-    background-color: @white;
-    filter: alpha(opacity=98);
-    box-shadow: 0 0 1px @box-shadow-color;
-    opacity: .98;
+    padding: 13px 35px 13px;
     visibility: hidden;
+    background-color: @white;
+    filter: alpha(opacity=99);
+    box-shadow: 0 0 1px @box-shadow-color;
+    opacity: .99;
     &.is-visible {
-      .i-transform(translateY(0));
       visibility: visible;
     }
 
@@ -121,8 +120,7 @@ nav {
         color: @gray40;
         text-transform: uppercase;
         cursor: pointer;
-        &:hover,
-        &:active {
+        &:hover, &:active {
           color: @gray10 !important;
         }
       }

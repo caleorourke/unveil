@@ -2,8 +2,7 @@
  * blockquote.less
  *
  * Blockquote properties should always be defined in blockquote.less. This
- * prevents issues with conflicting properties. Here, you can edit or add
- * new blockquote properties. Remember to comb this stylesheet before
+ * prevents issues with conflicting properties. Comb this stylesheet before
  * committing.
  *
  */
@@ -62,16 +61,13 @@
       border: 1px solid transparent;
       border-radius: @border-radius-xlarge;
     }
-    .blockquote-prev,
-    .blockquote-next {
-      &:hover,
-      &:active {
+    .blockquote-prev, .blockquote-next {
+      &:hover, &:active {
         background-color: @bg-arrow-color;
       }
     }
     @media (max-width: 767px) {
-      .blockquote-prev,
-      .blockquote-next {
+      .blockquote-prev, .blockquote-next {
         background: none;
       }
     }

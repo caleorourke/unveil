@@ -2,32 +2,11 @@
  * base.less
  *
  * Base properties should always be defined in base.less. This prevents issues
- * with conflicting properties. Here, you can edit or add new base properties.
- * Remember to comb this stylesheet before committing.
+ * with conflicting properties. Comb this stylesheet before committing.
  *
  */
 
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-a,
-img,
-q,
-small,
-strong,
-ol,
-ul,
-li,
-table {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, q, small, strong, ol, ul, li, table {
   padding: 0;
   margin: 0;
   font-family: inherit;
@@ -47,15 +26,11 @@ html {
   line-height: 1;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   .i-box-sizing(inherit);
 }
 
-a,
-button,
-figure {
+a, button, figure {
   touch-action: manipulation;
 }
 
@@ -106,8 +81,7 @@ p {
   a {
     .i-transition(color .5s);
     .i-underline-text(@default-color);
-    &:hover,
-    &:active {
+    &:hover, &:active {
       .i-underline-text(@default-color-hover);
       color: @default-color-hover;
     }
@@ -123,8 +97,7 @@ a {
   color: @default-color;
   text-decoration: none;
   background-color: transparent;
-  &:hover,
-  &:active {
+  &:hover, &:active {
     color: @default-color-hover;
     text-decoration: none;
     outline: 0;
