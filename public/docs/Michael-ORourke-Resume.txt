@@ -10,17 +10,17 @@ LINKEDIN: http://www.linkedin.com/in/caleorourke
 SUMMARY
 =====================================
 
-Forward-thinking product manager with expertise in managing the strategy and execution for high-tech products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to development, to delivery.
+Forward-thinking product manager with expertise in the strategic and tactical avenues for high-tech products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to development, to delivery.
 
-Tech-savvy and analytical with 15 years experience in product and program management, web engineering, and software development. Adept at creating new development initiatives for diverse products in fast-paced Agile environments.
+Tech-savvy and analytical with 15 years experience in product and program management, web engineering, and software development. Adept at building new development initiatives and diverse portfolios for products in fast-paced Agile, DevOps, and Lean environments.
 
 =====================================
 EXPERIENCE
 =====================================
 
-PRODUCT MANAGER
-IBM Cloud, 2012-PRESENT
-Dallas, Texas
+SENIOR PRODUCT MANAGER
+IBM Cloud
+2012-PRESENT | Dallas, Texas
 
 Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud PaaS and IaaS products in global marketplaces.
 
@@ -28,11 +28,11 @@ Pivot product initiatives and market strategies toward developing a growing clou
 * Enact strategies to reach untapped markets and new growth opportunities
 * Craft business cases, proofs-of-concept, and requirements for dev consumption
 * Align technology roadmaps and P&L to drive organic growth and achieve business objectives
-* Work directly with developers, designers, and customers to transform user/buyer needs into empathic feature-sets
+* Work directly with developers, designers, and customers to refine product concepts and ensure customer success and adoption
 
 SENIOR PRODUCT MANAGER
-Neopost ID, 2003-2012
-Austin, Texas
+Neopost ID | Austin, Texas
+2003-2012
 
 Cultivated pipelines to new markets and designed offerings for new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products.
 
@@ -43,8 +43,8 @@ Cultivated pipelines to new markets and designed offerings for new online soluti
 * Launched storefront for purchasing Internet-enabled apps on smart devices, increasing attachment rates 30-32% each quarter
 
 TECHNICAL PROJECT CONSULTANT
-Sprint Nextel, 2000-2002
-Plano, Texas
+Sprint Nextel | Plano, Texas
+2000-2002
 
 Spearheaded retail launches for mobile products and provided operational support for system hardware, networks, and back-office systems.
 
@@ -57,45 +57,45 @@ EDUCATION
 =====================================
 
 INFORMATION TECHNOLOGY
-Liberty University
+Liberty University | Lynchburg, Virginia
 
-* Advanced studies in imaging, graphic design, security, integration, networking, and enterprise technology.
+Advanced studies in imaging, graphic design, security, integration, networking, and enterprise technology.
 
 MANAGEMENT INFORMATION SYSTEMS
-Liberty University
+Liberty University | Lynchburg, Virginia
 
-* Core foundations for technology, software, programming, and development in business environments.
+Core foundations for technology, software, programming, and development in business environments.
 
 =====================================
 CERTIFICATIONS
 =====================================
 
 PROJECT MANAGEMENT PROFESSIONAL (PMP)
-Project Management Institute
+Project Management Institute | Austin, Texas
 
-* Most industry-recognized certification for project managers in virtually any industry, using any methodology, at any location.
+Most industry-recognized certification for project managers in virtually any industry, using any methodology, at any location.
 
 PRACTICAL PRODUCT MANAGEMENT CERTIFIED
-Pragmatic Marketing
+Pragmatic Marketing | Austin, Texas
 
-* Principles for Pragmatic Marketing standards and how to bring profitable, problem-oriented products to market.
+Principles for Pragmatic Marketing standards and how to bring profitable, problem-oriented products to market.
 
 CERTIFIED SCRUM PRODUCT OWNER
-Scrum Alliance
+Scrum Alliance | Austin, Texas
 
-* Scrum practices and principles for managing projects, getting products out, grooming product backlogs, and setting priorities.
+Scrum practices and principles for managing projects, getting products out, grooming product backlogs, and setting priorities.
 
 CERTIFIED SCRUM PROFESSIONAL
-Scrum Alliance
+Scrum Alliance | Austin, Texas
 
-* Proven expertise in improving how Scrum and other Agile methods are implemented for any project.
+Proven expertise in improving how Scrum and other Agile methods are implemented for any project.
 
-CERTIFIED SCRUMMASTER
-Scrum Alliance
+CERTIFIED SCRUM MASTER
+Scrum Alliance | Dallas, Texas
 
-* Harness Scrum values to attain knowledge and expertise above and beyond traditional project managers.
+Harness Scrum values to attain knowledge and expertise above and beyond traditional project managers.
 
 NETWORK+ CERTIFIED
-CompTIA
+CompTIA | Dallas, Texas
 
-* Competence in building, managing, and protecting critical assets for data network.
+Competence in building, managing, and protecting critical assets for data network.
