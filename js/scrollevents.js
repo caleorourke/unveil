@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
         }
       } else if (currentTop > this.previousTop) {
         // if scrolling down...
-        // $('.nav-header').removeClass('is-visible');
+        $('.nav-header').removeClass('is-visible');
         if (currentTop > headerHeight && !$('.nav-header').hasClass('is-sticky')) $('.nav-header').addClass('is-sticky');
       }
       this.previousTop = currentTop;
