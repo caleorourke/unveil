@@ -9,13 +9,13 @@
     "url": "git+https://github.com/caleorourke/unveil.git"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-concat": "^1.0.0",
-    "grunt-contrib-uglify": "^1.0.0",
-    "grunt-csscomb": "^3.0.0",
-    "grunt-jekyll-pages": "^1.0.7",
-    "grunt-recess": "^1.0.0",
-    "grunt-shell": "^1.1.1"
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-concat": "1.0.0",
+    "grunt-contrib-uglify": "1.0.0",
+    "grunt-csscomb": "3.0.0",
+    "grunt-jekyll-pages": "1.0.7",
+    "grunt-recess": "1.0.0",
+    "grunt-shell": "1.1.1"
   }
 }
