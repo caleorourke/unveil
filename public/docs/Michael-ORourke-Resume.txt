@@ -1,101 +1,109 @@
-MICHAEL OROURKE
-*** Product Manager for Cloud, Web, and Digital marketplaces ***
+MICHAEL O'ROURKE
+MARKET-DRIVEN SENIOR PRODUCT MANAGER
+Translating insights into actionable solutions with breakthrough results.
 
-TOWN: Dallas, Texas
-PHONE: 512-740-4491
-EMAIL: cale.orourke@gmail.com
-LINKEDIN: http://www.linkedin.com/in/caleorourke
+Dallas, Texas
+512.740.4491
+michaeljorourke@outlook.com
+http://www.linkedin.com/in/caleorourke
 
 =====================================
 SUMMARY
 =====================================
 
-Forward-thinking product manager with expertise in the strategic and tactical avenues for high-tech products. Solid reputation for hatching profitable strategies, aligning business and development pillars, and taking new products from concept, to development, to delivery.
+Forward-thinking technologist who blends strategic vision with practical execution to deliver high-tech products and solutions. Distinct ability to translate insights into compelling strategies that drive growth and ensure client success.
 
-Tech-savvy and analytical with 15 years experience in product and program management, web engineering, and software development. Adept at building new development initiatives and diverse portfolios for products in fast-paced Agile, DevOps, and Lean environments.
+Recognized for identifying emerging trends, implementing new market initiatives, and driving go-to-market tactics. Functional experience spanning all disciplines, from ideation and development to marketing and optimization. Skilled at delivering product and marketing capabilities including:
+
+Competitive Intelligence | Strategic Planning | Business Cases | Product Definition & Roadmaps
+Market Research | Content Creation | Value Propositions | Partnerships | Launch Plans | Requirements
 
 =====================================
-EXPERIENCE
+PRACTICAL EXPERIENCE
 =====================================
 
+DISCIPLINES
+Product and Project Management, Software and Product Development, Marketing, Technical Writing, Web Engineering
+
+INDUSTRIES
+Cloud Computing, Digital, e-commerce, Enterprise Software, Business Applications, Analytics, Logistics, Mobile, Telecommunication, Web
+
+METHODOLOGIES
+Agile/Scrum, DevOps, Lean/Kanban, Offering Management, Outcome Driven Innovation, Practical Product Management
+
+LANGUAGES
+CSS, HTML, jQuery, LESS.JS, Markdown, SASS, SQL, YAML
+
+=====================================
+PROFESSIONAL EXPERIENCE
+=====================================
+
+PRODUCT PORTFOLIO MANAGER
+SoftLayer | Dallas, Texas
+2014-2016
+
+Drove new product creation from ideation to adoption for sophisticated cloud ecosystems and services. Outlined marketing investments against key competitors, steered courses for technology initiatives, and delivered product offerings to market.
+
+- Strategically drove $234M in annual sales for multiple cloud products in vertical marketplaces with projected +17% revenue growth.
+- Presided over five products teams to design, develop, and implement OpenStack's cloud platform, increasing adoption rate by 36%; positioned to compete against Amazon, Google and Microsoft.
+- Constructed and launched new Identity, Security, and Microservice portfolios in Bluemix and IBM Marketplace; capitalized on market opportunities to stimulate adoption of PaaS and hybrid cloud services.
+- Identified growth opportunities and key trend must-haves for an evolving Microservices architecture, forecasted to attain $4M+ in new revenue.
+
+PRODUCT MANAGER
+SoftLayer | Dallas, Texas
+2012-2014
+
+Developed product initiatives and design strategies for an innovative cloud infrastructure. Managed the collection and definition of candidate feature-functions, concept designs, priorities, and requirements across core teams.
+
+- Designed and launched new IaaS and public cloud services in SoftLayer marketplaces, generating double digit growth over two consecutive years.
+- Acquired new strategic business partners to extend SDN and CDN offerings, producing $20M net new revenue in first year.
+- Rebuilt entire product portfolio to rival new competitors; included pricing, cataloging, mapping, and on-boarding.
+- Spearheaded initiatives to sunset low margin products, reducing operating expenses by 26%.
+
 SENIOR PRODUCT MANAGER
-IBM Cloud
-2012-PRESENT | Dallas, Texas
+Neopost | Austin, Texas
+2007-2012
 
-Pivot product initiatives and market strategies toward developing a growing cloud computing platform. Responsible for building and launching new cloud PaaS and IaaS products in global marketplaces.
+Cultivated pipelines to new digital, e-commerce, and cloud markets. Researched market needs, designed product offerings, and drove the product vision, value proposition, and go-to-market planning for customer-facing products.
 
-* Establish new vertical products in Bluemix, SoftLayer, and IBM marketplace catalogs
-* Enact strategies to reach untapped markets and new growth opportunities
-* Craft business cases, proofs-of-concept, and requirements for dev consumption
-* Align technology roadmaps and P&L to drive organic growth and achieve business objectives
-* Work directly with developers, designers, and customers to refine product concepts and ensure customer success and adoption
+- Introduced new SaaS product lines and technology refresh programs, netting double-digit growth and reducing customer churn YOY.
+- Regained market traction and increased attachment rates 30% by offering resellers portals to promote and procure products.
+- Initiated turn-round strategy and revenue growth plan requiring recalibration of entire product line; encompassed new feature-sets, closing market gaps, rebranding, and launching as new products.
+- Accelerated time-to-market 40% by implementing new Agile and product portfolio practices; streamlined workloads, improved quality, and formalized product lifecycles.
 
-SENIOR PRODUCT MANAGER
-Neopost ID | Austin, Texas
-2003-2012
+TECHNICAL PRODUCT MANAGER
+Neopost | Dallas, Texas
+2003-2007
 
-Cultivated pipelines to new markets and designed offerings for new online solutions and native apps. Responsible for customer-facing SaaS, on-premise, and digital products.
+Orchestrated software releases, implementations, and launch efforts. Served as the technical interface between Software Development, Quality Assurance, and Release Management.
 
-* Reached new markets by transitioning native products to hosted ecosystems
-* Facilitated technology refresh programs to eliminate churn and increase revenue flow
-* Adopted new Agile and Product Portfolio practices, reducing time-to-market by 40%
-* Managed $25M project to transform line-of-business apps into a hosted CRM environment
-* Launched storefront for purchasing Internet-enabled apps on smart devices, increasing attachment rates 30-32% each quarter
-
-TECHNICAL PROJECT CONSULTANT
-Sprint Nextel | Plano, Texas
-2000-2002
-
-Spearheaded retail launches for mobile products and provided operational support for system hardware, networks, and back-office systems.
-
-* Ushered in technology induction programs for ION broadband, 3G, and new mobile devices
-* Coordinated new firmware builds, onsite implementations, and system updates during planned/unplanned maintenance windows
-* Gathered quantitative data to report failures and serviceability issues
+- Ushered in technology induction programs for on-premise software products and integration tools; enacted initiatives to standardize code releases, slashing production cost by $2.1M.
+- Managed $25M budget to transition four Competency Centers onto shared services platform.
+- Developed analytic tools to leverage customer insights and refine business plans and strategies.
+- Implemented custom $100K+ software solutions for Fortune 500 clients.
 
 =====================================
 EDUCATION
 =====================================
 
-INFORMATION TECHNOLOGY
-Liberty University | Lynchburg, Virginia
+BS, INFORMATION TECHNOLOGY, Liberty University, Lynchburg, Virginia
 
-Advanced studies in imaging, graphic design, security, integration, networking, and enterprise technology.
-
-MANAGEMENT INFORMATION SYSTEMS
-Liberty University | Lynchburg, Virginia
-
-Core foundations for technology, software, programming, and development in business environments.
+AA, MANAGEMENT INFORMATION SYSTEMS, Liberty University, Lynchburg, Virginia
 
 =====================================
-CERTIFICATIONS
+PROFESSIONAL DEVELOPMENT
 =====================================
 
-PROJECT MANAGEMENT PROFESSIONAL (PMP)
-Project Management Institute | Austin, Texas
+PRACTICAL PRODUCT MANAGEMENT CERTIFIED, Pragmatic Marketing, Austin, Texas
 
-Most industry-recognized certification for project managers in virtually any industry, using any methodology, at any location.
+PRAGMATIC MARKETING CERTIFIED, Pragmatic Marketing, Austin, Texas
 
-PRACTICAL PRODUCT MANAGEMENT CERTIFIED
-Pragmatic Marketing | Austin, Texas
+CERTIFIED SCRUM PRODUCT OWNER, Scrum Alliance, Austin, Texas
 
-Principles for Pragmatic Marketing standards and how to bring profitable, problem-oriented products to market.
+CERTIFIED SCRUM PROFESSIONAL, Scrum Alliance, Austin, Texas
 
-CERTIFIED SCRUM PRODUCT OWNER
-Scrum Alliance | Austin, Texas
+CERTIFIED SCRUM MASTER, Scrum Alliance, Dallas, Texas
 
-Scrum practices and principles for managing projects, getting products out, grooming product backlogs, and setting priorities.
+PROJECT MANAGEMENT PROFESSIONAL (PMP), Project Management Institute, Austin, Texas
 
-CERTIFIED SCRUM PROFESSIONAL
-Scrum Alliance | Austin, Texas
-
-Proven expertise in improving how Scrum and other Agile methods are implemented for any project.
-
-CERTIFIED SCRUM MASTER
-Scrum Alliance | Dallas, Texas
-
-Harness Scrum values to attain knowledge and expertise above and beyond traditional project managers.
-
-NETWORK+ CERTIFIED
-CompTIA | Dallas, Texas
-
-Competence in building, managing, and protecting critical assets for data network.
+NETWORK+ CERTIFIED, CompTIA, Dallas, Texas

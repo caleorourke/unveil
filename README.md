@@ -77,14 +77,20 @@ Run any of these commands to initiate a task.
 2. Spits out any errors found during the build process
 
 ## Updating Unveil
-Dependencies are updated often by their original authors. To install the most recent versions, run `sudo npm update`.
+Dependencies for Node and Grunt are updated often by their original authors. To install the latest versions, browse the sections below.
 
-If this fails for whatever reason, run the following commands to delete the original `node_modules` directory and build a new one.
+#### Node.js
+
+Run `sudo npm update` to install the latest versions. Should this fail for any reason, run the following commands to delete the original `node_modules` directory and build a new one.
 
 ~~~bash
 $ sudo rm -r node_modules
 $ sudo npm install
 ~~~
+
+#### Grunt
+
+Run `sudo grunt install` to install the latest versions.
 
 ## Customization
 A number of customization options are available.
