@@ -30,14 +30,14 @@ $ cd unveil
 Install Grunt and dev dependencies for Node.
 
 ~~~bash
-$ sudo npm install -g grunt-cli
-$ sudo npm install
+$ npm install -g grunt-cli
+$ npm install
 ~~~
 
 Install Jekyll and other Ruby runtime dependencies.
 
 ~~~bash
-$ sudo grunt install
+$ grunt install
 ~~~
 
 ## Start Using Unveil
@@ -84,13 +84,13 @@ Dependencies for Node and Grunt are updated often by their original authors. To 
 Run `sudo npm update` to install the latest versions. Should this fail for any reason, run the following commands to delete the original `node_modules` directory and build a new one.
 
 ~~~bash
-$ sudo rm -r node_modules
-$ sudo npm install
+$ rm -r node_modules
+$ npm install
 ~~~
 
 #### Grunt
 
-Run `sudo grunt install` to install the latest versions.
+Run `grunt install` to install the latest versions.
 
 ## Customization
 A number of customization options are available.
@@ -128,7 +128,7 @@ var textillate_options = {
 
 #### Scroll Speed
 
-Adjust the settings for scroll speed under the `onePageNav` function in `js/settings.js`.
+Adjust the settings for scroll speed under the `onePageNav` function in `js/options.js`.
 
 ~~~js
 $('#nav').onePageNav({
