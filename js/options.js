@@ -48,8 +48,8 @@ jQuery(document).ready(function() {
   });
 
   /* Blockquote */
-  $('.blockquote-wrapper').flexslider({
-    selector:       '.blockquote-flexslider > .blockquote-slide',
+  $('.blockWrapper').flexslider({
+    selector:       '.blockFlexslider > .blockSlide',
     animation:      'slide',
     controlNav:     false,
     directionNav:   true,
