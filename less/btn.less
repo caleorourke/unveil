@@ -1,0 +1,39 @@
+/*
+ * btn.less
+ *
+ * Button properties should always be defined in btn.less. This prevents
+ * issues with conflicting properties. Comb this stylesheet before committing.
+ *
+ */
+
+.btn {
+  .i-underline-text-hidden();
+  .i-transition(all .5s ease);
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 13.5px;
+  font-weight: @font-weight-light;
+  color: @gray30;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid @gray70;
+  border-radius: @border-radius-xlarge;
+  &:hover,
+  &:active {
+    color: @gray30;
+    border: 1px solid @gray50;
+  }
+  &.btn--default {
+    color: @white;
+    background-color: @default-color;
+    border: 1px solid @default-color;
+    &:hover,
+    &:active {
+      background-color: darken(@default-color,5%);
+      border: 1px solid darken(@default-color,5%);
+    }
+  }
+}
