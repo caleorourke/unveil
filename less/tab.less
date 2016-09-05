@@ -13,12 +13,31 @@
   background: @white;
   background-size: 28px 16px;
   border-bottom: 1px dotted @gray70;
-  &.is-closed:hover .tab-arrow-down, &.open .tab-arrow-down {
+  &.is-closed:hover .tab-down,
+  &.open .tab-down {
     .i-transition(opacity .5s ease);
     opacity: 1;
   }
   &.is-closed {
     cursor: pointer;
+  }
+}
+
+.tab-down {
+  .i-transition(opacity .5s ease);
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url(../img/tab-down.png) no-repeat;
+  background-size: 28px 16px;
+  opacity: 0;
+
+  @media (max-width: 767px) {
+    top: 30px;
+    right: 10px;
   }
 }
 
@@ -45,13 +64,14 @@
     text-transform: none;
   }
   span {
-    &.tab-content-location, &.tab-content-membership {
+    &.tab-content--location,
+    &.tab-content--member {
       padding-left: 12px;
       margin-left: 8px;
       color: @gray20;
       border-left: 1px dotted @gray60;
     }
-    &.tab-content-location {
+    &.tab-content--location {
       padding-left: 4px;
     }
   }
@@ -59,7 +79,7 @@
   @media (max-width: 992px) {
     width: 425px;
     span {
-      &.tab-content-membership {
+      &.tab-content--member {
         display: none;
       }
     }
@@ -71,32 +91,10 @@
     margin: 12px 0 24px;
     border: 0;
     span {
-      &.tab-content-location {
+      &.tab-content--location {
         display: none;
       }
     }
-  }
-}
-
-/* =========================
-   Arrow
-   ========================= */
-
-.tab-arrow-down {
-  .i-transition(opacity .5s ease);
-  position: absolute;
-  top: 50px;
-  right: 30px;
-  display: block;
-  width: 48px;
-  height: 48px;
-  background: url(../img/tab-arrow-down.png) no-repeat;
-  background-size: 28px 16px;
-  opacity: 0;
-
-  @media (max-width: 767px) {
-    top: 30px;
-    right: 10px;
   }
 }
 

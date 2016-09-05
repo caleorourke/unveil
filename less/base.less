@@ -6,7 +6,27 @@
  *
  */
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, q, small, strong, ol, ul, li, table {
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+img,
+q,
+small,
+strong,
+ol,
+ul,
+li,
+table {
   padding: 0;
   margin: 0;
   font-family: inherit;
@@ -26,11 +46,15 @@ html {
   line-height: 1;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   .i-box-sizing(inherit);
 }
 
-a, button, figure {
+a,
+button,
+figure {
   touch-action: manipulation;
 }
 
@@ -76,7 +100,8 @@ p {
   a {
     .i-transition(color .5s);
     .i-underline-text(@default-color);
-    &:hover, &:active {
+    &:hover,
+    &:active {
       .i-underline-text(@default-color-hover);
       color: @default-color-hover;
     }
@@ -88,7 +113,8 @@ a {
   color: @default-color;
   text-decoration: none;
   background-color: transparent;
-  &:hover, &:active {
+  &:hover,
+  &:active {
     color: @default-color-hover;
     text-decoration: none;
     outline: 0;
@@ -97,7 +123,7 @@ a {
 
 ul {
   list-style: none;
-  &.listDisc {
+  &.list-style--disc {
     padding: 0 15px 15px;
     margin-left: 21px;
     font-size: 1.5rem;

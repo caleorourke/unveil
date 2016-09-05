@@ -1,7 +1,7 @@
 /*
  * options.js
  *
- * Updated 2016.03.22
+ * Updated 2016.09.05
  * Code and documentation licensed under the MIT license
  *
  */
@@ -48,8 +48,8 @@ jQuery(document).ready(function() {
   });
 
   /* Blockquote */
-  $('.blockWrapper').flexslider({
-    selector:       '.blockFlexslider > .blockSlide',
+  $('.quote-wrapper').flexslider({
+    selector:       '.quote-flexslider > .quote-slide',
     animation:      'slide',
     controlNav:     false,
     directionNav:   true,

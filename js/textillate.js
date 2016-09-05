@@ -1,7 +1,7 @@
 /*
  * textillate.js
  *
- * Updated 2016.03.19
+ * Updated 2016.09.05
  * Code and documentation licensed under the MIT license
  *
  */

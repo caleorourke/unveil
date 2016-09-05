@@ -26,3 +26,17 @@
     }
   });
 })(jQuery);
+
+/* Function for all browsers with outdated ECMAScript */
+if(typeof String.prototype.trim !== 'function') {
+  String.prototype.trim = function() {
+    return this.replace(/^\s+|\s+$/g, '');
+  };
+}
+
+/* Function for older jQuery versions */
+if(typeof(jQuery.isNumeric) !== 'function') {
+  jQuery.isNumeric = function(obj) {
+    return !isNaN(parseFloat(obj)) && isFinite(obj);
+  };
+}
