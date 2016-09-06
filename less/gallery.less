@@ -19,7 +19,7 @@
       overflow: hidden;
       cursor: pointer;
       border: 9px solid @gray95;
-      &.gallery-item-hero {
+      &.gallery-item--hero {
         cursor: inherit !important;
       }
       > img {
@@ -28,7 +28,7 @@
         height: auto;
         line-height: 0;
       }
-      > .gallery-item-text {
+      > .gallery-item--text {
         .i-flex-align(center);
         .i-flex-line-pack(center);
         position: absolute;
@@ -43,7 +43,7 @@
         text-align: center;
         background-color: @overlay-color;
         opacity: 1;
-        > .gallery-item-headline {
+        > .gallery-item--headline {
           .i-flex-item-align(center);
           .i-align-self(center);
           .i-flex-line-pack(center);
@@ -68,7 +68,7 @@
             }
           }
         }
-        &.gallery-item-text-darken {
+        &.gallery-item--darken {
           background-color: @overlay-color-darken;
         }
       }
