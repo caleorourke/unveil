@@ -73,7 +73,7 @@ jQuery(document).ready(function() {
     return false;
   });
 
-  $('.nav-menu a[href^="#"], .hero-arrow-down').on('click', function() {
+  $('.nav-menu a[href^="#"]').on('click', function() { /*removed: .hero-arrow-down */
     jQuery('.nav-menu').hide();
     var the_id = $(this).attr('href');
     $('html, body').animate({
@@ -94,7 +94,7 @@ jQuery(document).ready(function() {
   $('.nav-menu').onePageNav({
     currentClass:     'active',
     changeHash:       false,
-    scrollSpeed:      750,
+    scrollSpeed:      800,
     scrollThreshold:  0.5,
     filter:           ':not(.contact)',
     easing:           'swing',

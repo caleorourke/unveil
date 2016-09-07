@@ -1,7 +1,7 @@
 /*
  * scrollevents.js
  *
- * Updated 2016.09.05
+ * Updated 2016.09.07
  * Code and documentation licensed under the MIT license
  *
  */
@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
         }
       } else if (currentTop > this.previousTop) {
         // If scrolling down...
-        $('.nav-header').removeClass('is-visible');
+        $('.nav-header').addClass('is-visible'); /* previously removeClass */
         if (currentTop > headerHeight && !$('.nav-header').hasClass('is-sticky')) $('.nav-header').addClass('is-sticky');
       }
       this.previousTop = currentTop;
