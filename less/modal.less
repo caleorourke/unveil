@@ -14,6 +14,14 @@
   }
 }
 
+/* fixes alignment in Chrome/Firefox */
+body {
+  &.modal-open {
+    padding-right: 0 !important;
+    overflow: visible;
+  }
+}
+
 .modal {
   position: fixed;
   top: 0;
@@ -103,17 +111,17 @@
       font-size: 18px;
       line-height: @line-height-xsmall;
       color: @gray30;
-      &.modal-tagline-contact {
+      &.modal--tagline-contact {
         margin-bottom: 15px;
       }
-      &.modal-tagline-resume {
+      &.modal-tagline--resume {
         margin-bottom: 12px;
       }
     }
     &.modal-paragraph {
       margin-bottom: 20px;
       font-size: 16px;
-      &.modal-paragraph-contact {
+      &.modal-paragraph--contact {
         line-height: @line-height-small;
         color: @gray20;
       }

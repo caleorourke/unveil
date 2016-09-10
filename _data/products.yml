@@ -33,7 +33,7 @@ postal-accountant:
 
 private-cloud:
   title: "Private Clouds"
-  categories: "IaaS, OpenStack, Microservices"
+  categories: "IaaS, OpenStack, Virtualization"
 
 siebel:
   title: "Siebel CRM"
