@@ -2,11 +2,11 @@
 <a href="https://david-dm.org/caleorourke/unveil#info=devDependencies" target="_blank"><img src="https://david-dm.org/caleorourke/unveil/dev-status.svg?theme=shields.io"></a>
 <a href="http://github.com/caleorourke/unveil/blob/gh-pages/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
 
-## Introducing Unveil
-Unveil is a one-page template designed specifically for hosting on [GitHub Pages](http://pages.github.com) and serving locally using [Jekyll](http://jekyllrb.com).
+## Introduction
+One-page template designed specifically for hosting on [GitHub Pages](http://pages.github.com) and serving locally using [Jekyll](http://jekyllrb.com).
 
 ## Prerequisites
-Unveil requires the minimum versions of Node and Ruby below.
+Requires the minimum versions of Node and Ruby below.
 
 * [Node 0.10.30](http://nodejs.org/download)
 * [Ruby 2.0](http://www.ruby-lang.org/en/installation)
@@ -19,8 +19,8 @@ $ node --version
 $ ruby -v
 ~~~
 
-## Install Unveil
-Clone Unveil from the `gh-pages` branch on GitHub and go into its directory.
+## Installation
+Clone from the `gh-pages` branch on GitHub and go into its directory.
 
 ~~~
 $ git clone -b gh-pages https://github.com/caleorourke/unveil.git
@@ -40,8 +40,8 @@ Install Jekyll and other Ruby runtime dependencies.
 $ grunt install
 ~~~
 
-## Start Using Unveil
-Unveil leverages [Grunt](http://gruntjs.com) as a harness for installing Node and Ruby dependencies, in addition to serving the site locally.
+## Grunt
+[Grunt](http://gruntjs.com) is leveraged as a harness for installing Node and Ruby dependencies, in addition to serving the site locally.
 
 ### Commands
 Run any of these commands to initiate a task.
@@ -76,11 +76,10 @@ Run any of these commands to initiate a task.
 1. Builds the website locally in the `_site` directory
 2. Spits out any errors found during the build process
 
-## Updating Unveil
+## Updates
 Dependencies for Node and Grunt are updated often by their original authors. To install the latest versions, browse the sections below.
 
-#### Node.js
-
+### Node.js
 Run `sudo npm update` to install the latest versions. Should this fail for any reason, run the following commands to delete the original `node_modules` directory and build a new one.
 
 ~~~bash
@@ -88,15 +87,13 @@ $ rm -r node_modules
 $ npm install
 ~~~
 
-#### Grunt
-
+### Grunt
 Run `grunt install` to install the latest versions.
 
 ## Customization
 A number of customization options are available.
 
-#### Letter Animation
-
+### Letter Animation
 Adjust the settings for the hero's letter animation under the `textillate_options` var in `js/textillate.js`.
 
 ~~~js
@@ -126,8 +123,7 @@ var textillate_options = {
 };
 ~~~
 
-#### Scroll Speed
-
+### Scroll Speed
 Adjust the settings for scroll speed under the `onePageNav` function in `js/options.js`.
 
 ~~~js
@@ -145,5 +141,4 @@ $('#nav').onePageNav({
 ~~~
 
 ## License
-
 Code and documentation licensed under the MIT license.
