@@ -3,7 +3,7 @@
 <a href="http://github.com/caleorourke/unveil/blob/gh-pages/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
 
 ## Introduction
-One-page template designed specifically for hosting on [GitHub Pages](http://pages.github.com) and serving locally using [Jekyll](http://jekyllrb.com).
+One page template designed specifically for hosting on [GitHub Pages](http://pages.github.com) and serving locally using [Jekyll](http://jekyllrb.com).
 
 ## Prerequisites
 Requires the minimum versions of Node and Ruby below.
