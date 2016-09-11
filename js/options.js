@@ -1,7 +1,7 @@
 /*
  * options.js
  *
- * Updated 2016.09.05
+ * Updated 2016.09.11
  * Code and documentation licensed under the MIT license
  *
  */
@@ -54,7 +54,7 @@ jQuery(document).ready(function() {
     controlNav:     false,
     directionNav:   true,
     animationLoop:  true,
-    slideshow:      false,
+    slideshow:      true,
     direction:      'horizontal',
     move:           1,
     maxItems:       1
@@ -94,7 +94,7 @@ jQuery(document).ready(function() {
   $('.nav-menu').onePageNav({
     currentClass:     'active',
     changeHash:       false,
-    scrollSpeed:      800,
+    scrollSpeed:      700,
     scrollThreshold:  0.5,
     filter:           ':not(.contact)',
     easing:           'swing',

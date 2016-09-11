@@ -4,29 +4,29 @@
  * MIT licensed
  *
  * Copyright (C) 2012-2013 Jordan Schroter
+ *
+ * Linted by @caleorourke on 2016.09.11
  */
 
 (function ($) {
-  "use strict";
 
   function isInEffect (effect) {
     return /In/.test(effect) || $.inArray(effect, $.fn.textillate.defaults.inEffects) >= 0;
-  };
+  }
 
   function isOutEffect (effect) {
     return /Out/.test(effect) || $.inArray(effect, $.fn.textillate.defaults.outEffects) >= 0;
-  };
-
+  }
 
   function stringToBoolean(str) {
-    if (str !== "true" && str !== "false") return str;
-    return (str === "true");
-  };
+    if (str !== 'true' && str !== 'false') return str;
+    return (str === 'true');
+  }
 
   // custom get data api method
   function getData (node) {
     var attrs = node.attributes || []
-      , data = {};
+    , data = {};
 
     if (!attrs.length) return data;
 
@@ -41,7 +41,7 @@
       } else if (/^data-*/.test(nodeName)) {
         data[nodeName.replace(/data-/, '')] = stringToBoolean(attr.nodeValue);
       }
-    })
+    });
 
     return data;
   }
@@ -90,10 +90,11 @@
       var delay = options.sync ? options.delay : options.delay * i * options.delayScale;
 
       $char.text() ?
-        setTimeout(function () { animate($char, options.effect, complete) }, delay) :
-        complete();
+        setTimeout(function () {
+          animate($char, options.effect, complete);
+        }, delay) : complete();
     });
-  };
+  }
 
   var Textillate = function (element, options) {
     var base = this
@@ -125,7 +126,7 @@
 
       setTimeout(function () {
         base.options.autoStart && base.start();
-      }, base.options.initialDelay)
+      }, base.options.initialDelay);
     };
 
     base.setOptions = function (options) {
@@ -162,7 +163,7 @@
                  '-o-transform': 'translate3d(0,0,0)',
                     'transform': 'translate3d(0,0,0)'
           })
-          .each(function () { $(this).lettering() });
+          .each(function () { $(this).lettering(); });
 
       $chars = base.$current
         .find('[class^="char"]')
@@ -186,7 +187,7 @@
     base.out = function (cb) {
       var $elem = base.$texts.find(':nth-child(' + (base.currentIndex + 1) + ')')
         , $chars = base.$current.find('[class^="char"]')
-        , options = $.extend(true, {}, base.options, $elem.length ? getData($elem[0]) : {})
+        , options = $.extend(true, {}, base.options, $elem.length ? getData($elem[0]) : {});
 
       base.triggerEvent('outAnimationBegin');
 
@@ -215,7 +216,7 @@
 
             base.timeoutRun = setTimeout(function () {
               base.out(function () {
-                run(index)
+                run(index);
               });
             }, base.options.minDisplayTime);
           }
@@ -231,22 +232,22 @@
     };
 
     base.init();
-  }
+  };
 
   $.fn.textillate = function (settings, args) {
     return this.each(function () {
       var $this = $(this)
         , data = $this.data('textillate')
-        , options = $.extend(true, {}, $.fn.textillate.defaults, getData(this), typeof settings == 'object' && settings);
+        , options = $.extend(true, {}, $.fn.textillate.defaults, getData(this), typeof settings === 'object' && settings);
 
       if (!data) {
         $this.data('textillate', (data = new Textillate(this, options)));
-      } else if (typeof settings == 'string') {
+      } else if (typeof settings === 'string') {
         data[settings].apply(data, [].concat(args));
       } else {
         data.setOptions.call(data, options);
       }
-    })
+    });
   };
 
   $.fn.textillate.defaults = {

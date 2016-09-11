@@ -1,7 +1,7 @@
 /*
  * touchevents.js
  *
- * Updated 2016.03.09
+ * Updated 2016.09.11
  * Code and documentation licensed under the MIT license
  *
  */
@@ -9,19 +9,19 @@
 (function () {
   'use strict';
 
-  $window   = $(window),
-  $document = $(document),
+  $window   = $(window);
+  $document = $(document);
   $body     = $('body');
 
   $document.ready(function () {
 
     /* Touch Class */
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      $('body').addClass('touch')
+      $('body').addClass('touch');
     }
 
     /* Progress Items */
-    $('.progress-item').on('click touchend', function (e) {
+    $('.progress-item').on('click touchend', function () {
       var $this  = $(this);
       var $popup = $this.children('.progress-popover').first();
 
@@ -29,7 +29,7 @@
       $popup.css({
         'margin-left': (-1 * (Math.round($popup.outerWidth() / 2))) + 'px'
       });
-    }).hover(function (e) {
+    }).hover(function () {
       var $this  = $(this);
       var $popup = $this.children('.progress-popover').first();
 
@@ -37,7 +37,7 @@
       $popup.css({
         'margin-left': (-1 * (Math.round($popup.outerWidth() / 2))) + 'px'
       });
-    }, function (e) {
+    }, function () {
       $(this).removeClass('hover');
     });
 

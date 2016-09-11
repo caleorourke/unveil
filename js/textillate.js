@@ -1,7 +1,7 @@
 /*
  * textillate.js
  *
- * Updated 2016.09.05
+ * Updated 2016.09.11
  * Code and documentation licensed under the MIT license
  *
  */
@@ -10,8 +10,8 @@ var Main = Main || {};
 
 function HeadlineHandler() {
 
-  self      = this,
-  container = jQuery('.hero-container'),
+  self      = this;
+  container = jQuery('.hero-container');
   clone     = container.clone( false );
 
   this.init = function () {
@@ -104,12 +104,13 @@ function HeadlineHandler() {
 }
 
 (function () {
-  $window   = $(window),
-  $document = $(document),
+
+  $window   = $(window);
+  $document = $(document);
   $body     = $('body');
 
   var resizeHandler = function () {
-    if (Main.headlineHandler && typeof(Main.headlineHandler.update) == 'function') {
+    if (Main.headlineHandler && typeof(Main.headlineHandler.update) === 'function') {
       Main.headlineHandler.update();
     }
   };
