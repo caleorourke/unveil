@@ -38,7 +38,7 @@ jQuery(document).ready(function() {
     speed:      40,  // speed of 1/100
     barcolor:   '#1b8ade',
     barsize:    '2',
-    trackcolor: '#f6f6f6',
+    trackcolor: '#f5f5f5',
     fillcolor:  'none',
     easing:     'ease'
   });
@@ -54,7 +54,7 @@ jQuery(document).ready(function() {
     controlNav:     false,
     directionNav:   true,
     animationLoop:  true,
-    slideshow:      true,
+    slideshow:      false,
     direction:      'horizontal',
     move:           1,
     maxItems:       1

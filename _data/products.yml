@@ -4,7 +4,7 @@
 #
 
 aod:
-  title: "AOD SoftLayer"
+  title: "Aspera On Demand"
   categories: "IaaS, Deep Storage, CDN, Transcoding"
 
 chef-openstack:
@@ -12,7 +12,7 @@ chef-openstack:
   categories: "IaaS, Automation, Virtual Servers"
 
 cloudant:
-  title: "Cloudant SoftLayer"
+  title: "Cloudant"
   categories: "PaaS, Big Data, NoSQL"
 
 imeter:
@@ -31,10 +31,10 @@ postal-accountant:
   title: "Postal Accountant"
   categories: "SaaS, Data Aggregator, BI"
 
-private-cloud:
-  title: "Private Clouds"
+open-cloud:
+  title: "Open Clouds"
   categories: "IaaS, OpenStack, Virtualization"
 
 siebel:
-  title: "Siebel CRM"
+  title: "Siebel"
   categories: "SaaS, CRM, ETL, Data Platform"
