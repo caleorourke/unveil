@@ -10,7 +10,7 @@
 header {
   &.nav-header {
     .i-clearfix();
-    .i-transition(visibility .4s ease-in);
+    //.i-transition(visibility .5s ease-in);
     z-index: @zindex1010;
     padding: 13px 35px 13px;
     visibility: hidden;
@@ -100,7 +100,7 @@ nav {
   z-index: @zindex1000;
   display: table;
   float: right;
-  height: 56px;
+  height: 55px;
   margin: 0 auto;
   background-color: @white;
 
@@ -115,10 +115,12 @@ nav {
         z-index: @zindex70;
         display: block;
         padding: 3px 0 0;
-        font-size: 13px;
+        // font-size: 13px;
+        font-size: 15px;
         font-weight: @font-weight-normal;
+        letter-spacing: .015em;
         color: @gray40;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         cursor: pointer;
         &:hover,
         &:active {
