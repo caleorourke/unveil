@@ -2,7 +2,7 @@
  * Gruntfile.js
  *
  * Grunt provides configuration for tasks and npm extensions. It reads JSON data from package.json
- * and YAML data from config.yml. Do not edit existing tasks until you're familiar with how each works.
+ * and YAML data from config.yml. Do not edit existing tasks until you are familiar with how each works.
  * Learn more at http://gruntjs.com.
  *
  */
@@ -14,9 +14,9 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     site: grunt.file.readYAML('_config.yml'),
     banner: '/* \n' +
-            ' * Copyright © <%= grunt.template.today(\'yyyy\') %> <%= site.title %>\n' +
+            ' * Copyright (c) <%= grunt.template.today(\'yyyy\') %> <%= site.title %>\n' +
             ' * \n' +
-            ' * <%= pkg.name %>, Updated <%= grunt.template.today(\'yyyy.mm.dd\') %>\n' +
+            ' * Updated <%= grunt.template.today(\'yyyy.mm.dd\') %>\n' +
             ' * Code and documentation licensed under the <%= site.license %> license\n' +
             ' * \n' +
             ' */\n',
