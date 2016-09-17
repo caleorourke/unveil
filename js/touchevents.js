@@ -1,7 +1,7 @@
 /*
  * touchevents.js
  *
- * Updated 2016.09.11
+ * Updated 2016.09.17
  * Code and documentation licensed under the MIT license
  *
  */
@@ -15,12 +15,20 @@
 
   $document.ready(function () {
 
-    /* Touch Class */
+   /**
+    * Touch class
+    * -------------------------------------------------------
+    */
+
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       $('body').addClass('touch');
     }
 
-    /* Progress Items */
+   /**
+    * Progress
+    * -------------------------------------------------------
+    */
+
     $('.progress-item').on('click touchend', function () {
       var $this  = $(this);
       var $popup = $this.children('.progress-popover').first();
@@ -49,7 +57,11 @@
       }
     });
 
-    /* Gallery Items */
+   /**
+    * Gallery
+    * -------------------------------------------------------
+    */
+
     $('.gallery-item').on('touchend', function (e) {
       var $this = $(this);
 
@@ -60,7 +72,11 @@
       }
     });
 
-    /* Navigation */
+   /**
+    * Nav
+    * -------------------------------------------------------
+    */
+
     $body.on('click touchstart', function (e) {
       var $t = $(e.target);
 

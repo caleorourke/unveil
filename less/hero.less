@@ -1,7 +1,7 @@
 /*
  * hero.less
  *
- * Hero properties should always be defined in hero.less. This prevents issues
+ * Hero properties should always be defined in here. This prevents issues
  * with conflicting properties. Comb this stylesheet before committing.
  *
  */
@@ -108,4 +108,18 @@
   @media (max-width: 767px) {
     display: none !important;
   }
+}
+
+/* =========================
+   Site
+   ========================= */
+
+.site {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: @zindex1200;
+  background-color: @white;
 }

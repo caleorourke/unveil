@@ -1,15 +1,28 @@
 /*
  * scrollevents.js
  *
- * Updated 2016.09.07
+ * Updated 2016.09.17
  * Code and documentation licensed under the MIT license
  *
  */
 
 jQuery(document).ready(function($) {
+
+  /**
+   * Header spacing
+   * -------------------------------------------------------
+   */
+
+  $('header').sticky({
+    topSpacing: 0
+  });
+
+  /**
+   * Nav slide-in effect
+   * -------------------------------------------------------
+   */
   var MQL = 1170;
 
-  // Nav slide-in effect
   if ($(window).width() > MQL) {
     var headerHeight = $('.nav-header').height();
     $(window).on('scroll', {
@@ -17,9 +30,12 @@ jQuery(document).ready(function($) {
     },
     function() {
       var currentTop = $(window).scrollTop();
+
       // Check if user is scrolling up
+      //
       if (currentTop < this.previousTop) {
-        // If scrolling up...
+        // If scrolling up
+        //
         if (currentTop > 0 && $('.nav-header').hasClass('is-sticky')) {
           $('.nav-header').addClass('is-visible');
         } else {
@@ -27,6 +43,7 @@ jQuery(document).ready(function($) {
         }
       } else if (currentTop > this.previousTop) {
         // If scrolling down...
+        //
         $('.nav-header').addClass('is-visible'); /* previously removeClass */
         if (currentTop > headerHeight && !$('.nav-header').hasClass('is-sticky')) {
           $('.nav-header').addClass('is-sticky');

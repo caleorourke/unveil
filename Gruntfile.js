@@ -61,7 +61,7 @@ module.exports = function (grunt) {
               'js/useragent.js',
               'js/touchevents.js',
               'js/scrollevents.js',
-              'js/options.js'],
+              'js/effects.js'],
         dest: 'public/js/main.min.js'
       }
     },

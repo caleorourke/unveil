@@ -1,7 +1,7 @@
 /*
- * options.js
+ * effect.js
  *
- * Updated 2016.09.12
+ * Updated 2016.09.17
  * Code and documentation licensed under the MIT license
  *
  */
@@ -9,7 +9,11 @@
 jQuery(document).ready(function() {
   'use strict';
 
-  /* Toggle */
+  /**
+   * Toggle slide
+   * -------------------------------------------------------
+   */
+
   $.fn.slideFadeToggle = function(speed, easing, callback) {
     return this.animate({
       opacity: 'toggle',
@@ -17,18 +21,21 @@ jQuery(document).ready(function() {
     }, speed, easing, callback);
   };
 
-  /* Accordion */
+  /**
+   * Accordion effect
+   * -------------------------------------------------------
+   */
+
   $('.tab-content .tab-collapsed').hide();
   $('.tab-accordion .tab').on('click', function() {
     $(this).find('.tab-content > .tab-collapsed').slideToggle();
   });
 
-  /* Sticky Header */
-  $('header').sticky({
-    topSpacing: 0
-  });
+  /**
+   * Progress effect
+   * -------------------------------------------------------
+   */
 
-  /* Progress */
   $('.progress').asPieProgress({
     namespace:  'progress',
     min:        0,
@@ -47,7 +54,11 @@ jQuery(document).ready(function() {
     $(this).children('.progress').asPieProgress('start');
   });
 
-  /* Blockquote */
+  /**
+   * Quote slide
+   * -------------------------------------------------------
+   */
+
   $('.quote-wrapper').flexslider({
     selector:       '.quote-flexslider > .quote-slide',
     animation:      'slide',
@@ -60,14 +71,22 @@ jQuery(document).ready(function() {
     maxItems:       1
   });
 
-  /* Site Loading */
+  /**
+   * Site loading
+   * -------------------------------------------------------
+   */
+
   jQuery(window).load(function() { // makes sure the whole site is loaded
     //jQuery('.site-loading').fadeOut(); // will first fade out the loading animation
     jQuery('.site').delay(350).fadeOut('slow'); // fades out the div that covers the website
     //jQuery('.site').fadeOut('slow'); // fades out the div that covers the website
   });
 
-  /* Navigation */
+  /**
+   * Navigation effects
+   * -------------------------------------------------------
+   */
+
   jQuery('.nav-btn').on('click', function() {
     jQuery('.nav-menu').slideFadeToggle();
     return false;

@@ -1,7 +1,7 @@
 /*
  * grid.less
  *
- * Grid properties should always be defined in grid.less. This prevents issues
+ * Grid properties should always be defined in here. This prevents issues
  * with conflicting properties. Comb this stylesheet before committing.
  *
  */
@@ -72,4 +72,29 @@
   @media (max-width: 767px) {
     width: 300px !important;
   }
+}
+
+/* =========================
+   Sections
+   ========================= */
+
+section {
+  position: relative;
+  display: block;
+  padding: 94px 0 67px;
+  border-bottom: 1px solid @gray90;
+}
+
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7 {
+  position: absolute;
+}
+
+.section-anchored {
+  position: absolute;
+  top: -500px;
 }
