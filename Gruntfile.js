@@ -14,7 +14,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     site: grunt.file.readYAML('_config.yml'),
     banner: '/* \n' +
-            ' * Copyright (c) <%= grunt.template.today(\'yyyy\') %> <%= site.title %>\n' +
+            ' * Copyright 2015-<%= grunt.template.today(\'yyyy\') %> <%= site.title %>\n' +
             ' * \n' +
             ' * Updated <%= grunt.template.today(\'yyyy.mm.dd\') %>\n' +
             ' * Code and documentation licensed under the <%= site.license %> license\n' +
