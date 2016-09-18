@@ -1,0 +1,9 @@
+#
+# * Localized data file. Do not edit existing values. Use spaces only, no tabs.
+# * Wrap quotes around words or phrases that contain commas or apostrophes.
+#
+
+hp:         Hewlett Packard Enterprise
+softlayer:  "SoftLayer, an IBM Company"
+neopost:    Neopost
+sprint:     Sprint
