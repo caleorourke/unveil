@@ -101,8 +101,8 @@
           $(document).bind('keyup', function(event) {
             var keycode = event.keyCode;
             if (!slider.animating && (keycode === 39 || keycode === 37)) {
-              var target = (keycode === 39) ? slider.getTarget('Next') :
-                           (keycode === 37) ? slider.getTarget('Prev') : false;
+              var target = (keycode === 39) ? slider.getTarget('next') :
+                           (keycode === 37) ? slider.getTarget('prev') : false;
               slider.flexAnimate(target, slider.vars.pauseOnAction);
             }
           });
@@ -111,7 +111,7 @@
         if (slider.vars.mousewheel) {
           slider.bind('mousewheel', function(event, delta, deltaX, deltaY) {
             event.preventDefault();
-            var target = (delta < 0) ? slider.getTarget('Next') : slider.getTarget('Prev');
+            var target = (delta < 0) ? slider.getTarget('next') : slider.getTarget('prev');
             slider.flexAnimate(target, slider.vars.pauseOnAction);
           });
         }
@@ -167,9 +167,9 @@
                     target = $slide.index();
                 var posFromLeft = $slide.offset().left - $(slider).scrollLeft(); // Find position of slide relative to left of slider container
                 if( posFromLeft <= 0 && $slide.hasClass( namespace + 'active-slide' ) ) {
-                  slider.flexAnimate(slider.getTarget("Prev"), true);
+                  slider.flexAnimate(slider.getTarget("prev"), true);
                 } else if (!$(slider.vars.asNavFor).data('flexslider').animating && !$slide.hasClass(namespace + "active-slide")) {
-                  slider.direction = (slider.currentItem < target) ? "Next" : "Prev";
+                  slider.direction = (slider.currentItem < target) ? "next" : "prev";
                   slider.flexAnimate(target, slider.vars.pauseOnAction, false, true, true);
                 }
               });
@@ -190,7 +190,7 @@
                       var $slide = $(this),
                           target = $slide.index();
                       if (!$(slider.vars.asNavFor).data('flexslider').animating && !$slide.hasClass('active')) {
-                          slider.direction = (slider.currentItem < target) ? "Next" : "Prev";
+                          slider.direction = (slider.currentItem < target) ? "next" : "prev";
                           slider.flexAnimate(target, slider.vars.pauseOnAction, false, true, true);
                       }
                   });
@@ -241,7 +241,7 @@
                   target = slider.controlNav.index($this);
 
               if (!$this.hasClass(namespace + 'active')) {
-                slider.direction = (target > slider.currentSlide) ? "Next" : "Prev";
+                slider.direction = (target > slider.currentSlide) ? "next" : "prev";
                 slider.flexAnimate(target, slider.vars.pauseOnAction);
               }
             }
@@ -266,7 +266,7 @@
                   target = slider.controlNav.index($this);
 
               if (!$this.hasClass(namespace + 'active')) {
-                (target > slider.currentSlide) ? slider.direction = "Next" : slider.direction = "Prev";
+                (target > slider.currentSlide) ? slider.direction = "next" : slider.direction = "prev";
                 slider.flexAnimate(target, slider.vars.pauseOnAction);
               }
             }
@@ -299,7 +299,7 @@
       },
       directionNav: {
         setup: function() {
-          var directionNavScaffold = $('<ul class="' + namespace + 'direction-nav"><li class="' + namespace + 'nav-prev"><a class="' + namespace + 'Prev" href="#">' + slider.vars.prevText + '</a></li><li class="' + namespace + 'nav-next"><a class="' + namespace + 'Next" href="#">' + slider.vars.nextText + '</a></li></ul>');
+          var directionNavScaffold = $('<ul class="' + namespace + 'direction-nav"><li class="' + namespace + 'nav-prev"><a class="' + namespace + 'prev" href="#">' + slider.vars.prevText + '</a></li><li class="' + namespace + 'nav-next"><a class="' + namespace + 'next" href="#">' + slider.vars.nextText + '</a></li></ul>');
 
           // CUSTOM DIRECTION NAV:
           if (slider.customDirectionNav) {
@@ -320,7 +320,7 @@
             var target;
 
             if (watchedEvent === "" || watchedEvent === event.type) {
-              target = ($(this).hasClass(namespace + 'Next')) ? slider.getTarget('Next') : slider.getTarget('Prev');
+              target = ($(this).hasClass(namespace + 'next')) ? slider.getTarget('next') : slider.getTarget('prev');
               slider.flexAnimate(target, slider.vars.pauseOnAction);
             }
 
@@ -337,9 +337,9 @@
             slider.directionNav.addClass(disabledClass).attr('tabindex', '-1');
           } else if (!slider.vars.animationLoop) {
             if (slider.animatingTo === 0) {
-              slider.directionNav.removeClass(disabledClass).filter('.' + namespace + "Prev").addClass(disabledClass).attr('tabindex', '-1');
+              slider.directionNav.removeClass(disabledClass).filter('.' + namespace + "prev").addClass(disabledClass).attr('tabindex', '-1');
             } else if (slider.animatingTo === slider.last) {
-              slider.directionNav.removeClass(disabledClass).filter('.' + namespace + "Next").addClass(disabledClass).attr('tabindex', '-1');
+              slider.directionNav.removeClass(disabledClass).filter('.' + namespace + "next").addClass(disabledClass).attr('tabindex', '-1');
             } else {
               slider.directionNav.removeClass(disabledClass).removeAttr('tabindex');
             }
@@ -460,7 +460,7 @@
 
               if (slider.animatingTo === slider.currentSlide && !scrolling && !(dx === null)) {
                 var updateDx = (reverse) ? -dx : dx,
-                    target = (updateDx > 0) ? slider.getTarget('Next') : slider.getTarget('Prev');
+                    target = (updateDx > 0) ? slider.getTarget('next') : slider.getTarget('prev');
 
                 if (slider.canAdvance(target) && (Number(new Date()) - startT < 550 && Math.abs(updateDx) > 50 || Math.abs(updateDx) > cwidth/2)) {
                   slider.flexAnimate(target, slider.vars.pauseOnAction);
@@ -547,7 +547,7 @@
                 }
                 if (slider.animatingTo === slider.currentSlide && !scrolling && !(dx === null)) {
                     var updateDx = (reverse) ? -dx : dx,
-                        target = (updateDx > 0) ? slider.getTarget('Next') : slider.getTarget('Prev');
+                        target = (updateDx > 0) ? slider.getTarget('next') : slider.getTarget('prev');
 
                     if (slider.canAdvance(target) && (Number(new Date()) - startT < 550 && Math.abs(updateDx) > 50 || Math.abs(updateDx) > cwidth/2)) {
                         slider.flexAnimate(target, slider.vars.pauseOnAction);
@@ -673,17 +673,17 @@
     // public methods
     slider.flexAnimate = function(target, pause, override, withSync, fromNav) {
       if (!slider.vars.animationLoop && target !== slider.currentSlide) {
-        slider.direction = (target > slider.currentSlide) ? "Next" : "Prev";
+        slider.direction = (target > slider.currentSlide) ? "next" : "prev";
       }
 
-      if (asNav && slider.pagingCount === 1) slider.direction = (slider.currentItem < target) ? "Next" : "Prev";
+      if (asNav && slider.pagingCount === 1) slider.direction = (slider.currentItem < target) ? "next" : "prev";
 
       if (!slider.animating && (slider.canAdvance(target, fromNav) || override) && slider.is(":visible")) {
         if (asNav && withSync) {
           var master = $(slider.vars.asNavFor).data('flexslider');
           slider.atEnd = target === 0 || target === slider.count - 1;
           master.flexAnimate(target, true, false, true, fromNav);
-          slider.direction = (slider.currentItem < target) ? "Next" : "Prev";
+          slider.direction = (slider.currentItem < target) ? "next" : "prev";
           master.direction = slider.direction;
 
           if (Math.ceil((target + 1)/slider.visible) - 1 !== slider.currentSlide && target !== 0) {
@@ -741,9 +741,9 @@
             margin = slider.vars.itemMargin;
             calcNext = ((slider.itemW + margin) * slider.move) * slider.animatingTo;
             slideString = (calcNext > slider.limit && slider.visible !== 1) ? slider.limit : calcNext;
-          } else if (slider.currentSlide === 0 && target === slider.count - 1 && slider.vars.animationLoop && slider.direction !== "Next") {
+          } else if (slider.currentSlide === 0 && target === slider.count - 1 && slider.vars.animationLoop && slider.direction !== "next") {
             slideString = (reverse) ? (slider.count + slider.cloneOffset) * dimension : 0;
-          } else if (slider.currentSlide === slider.last && target === 0 && slider.vars.animationLoop && slider.direction !== "Prev") {
+          } else if (slider.currentSlide === slider.last && target === 0 && slider.vars.animationLoop && slider.direction !== "prev") {
             slideString = (reverse) ? 0 : (slider.count + 1) * dimension;
           } else {
             slideString = (reverse) ? ((slider.count - 1) - target + slider.cloneOffset) * dimension : (target + slider.cloneOffset) * dimension;
@@ -808,7 +808,7 @@
 
     // SLIDESHOW:
     slider.animateSlides = function() {
-      if (!slider.animating && focused ) { slider.flexAnimate(slider.getTarget("Next")); }
+      if (!slider.animating && focused ) { slider.flexAnimate(slider.getTarget("next")); }
     };
     // SLIDESHOW:
     slider.pause = function() {
@@ -839,17 +839,17 @@
       // ASNAV:
       var last = (asNav) ? slider.pagingCount - 1 : slider.last;
       return (fromNav) ? true :
-             (asNav && slider.currentItem === slider.count - 1 && target === 0 && slider.direction === "Prev") ? true :
-             (asNav && slider.currentItem === 0 && target === slider.pagingCount - 1 && slider.direction !== "Next") ? false :
+             (asNav && slider.currentItem === slider.count - 1 && target === 0 && slider.direction === "prev") ? true :
+             (asNav && slider.currentItem === 0 && target === slider.pagingCount - 1 && slider.direction !== "next") ? false :
              (target === slider.currentSlide && !asNav) ? false :
              (slider.vars.animationLoop) ? true :
-             (slider.atEnd && slider.currentSlide === 0 && target === last && slider.direction !== "Next") ? false :
-             (slider.atEnd && slider.currentSlide === last && target === 0 && slider.direction === "Next") ? false :
+             (slider.atEnd && slider.currentSlide === 0 && target === last && slider.direction !== "next") ? false :
+             (slider.atEnd && slider.currentSlide === last && target === 0 && slider.direction === "next") ? false :
              true;
     };
     slider.getTarget = function(dir) {
       slider.direction = dir;
-      if (dir === "Next") {
+      if (dir === "next") {
         return (slider.currentSlide === slider.last) ? 0 : slider.currentSlide + 1;
       } else {
         return (slider.currentSlide === 0) ? slider.last : slider.currentSlide - 1;
@@ -1181,9 +1181,9 @@
         case "play": $slider.play(); break;
         case "pause": $slider.pause(); break;
         case "stop": $slider.stop(); break;
-        case "Next": $slider.flexAnimate($slider.getTarget("Next"), true); break;
-        case "Prev":
-        case "previous": $slider.flexAnimate($slider.getTarget("Prev"), true); break;
+        case "next": $slider.flexAnimate($slider.getTarget("next"), true); break;
+        case "prev":
+        case "previous": $slider.flexAnimate($slider.getTarget("prev"), true); break;
         default: if (typeof options === "number") { $slider.flexAnimate(options, true); }
       }
     }

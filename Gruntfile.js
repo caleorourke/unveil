@@ -32,9 +32,9 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      assets: ['public/css/main.min.css',
-               'public/js/main.min.js',
-               'public/js/plugin.min.js']
+      assets: ['assets/css/main.min.css',
+               'assets/js/main.min.js',
+               'assets/js/plugin.min.js']
     },
 
     concat: {
@@ -50,7 +50,7 @@ module.exports = function (grunt) {
               'js/plugins/jquery-debounce.js',
               'js/plugins/bootstrap-transition.js',
               'js/plugins/bootstrap-modal.js'],
-        dest: 'public/js/plugin.min.js'
+        dest: 'assets/js/plugin.min.js'
       },
 
       main: {
@@ -62,7 +62,7 @@ module.exports = function (grunt) {
               'js/touchevents.js',
               'js/scrollevents.js',
               'js/effects.js'],
-        dest: 'public/js/main.min.js'
+        dest: 'assets/js/main.min.js'
       }
     },
 
@@ -72,7 +72,7 @@ module.exports = function (grunt) {
           report: 'min'
         },
         src: '<%= concat.vendors.dest %>',
-        dest: 'public/js/plugin.min.js'
+        dest: 'assets/js/plugin.min.js'
       },
 
       main: {
@@ -81,7 +81,7 @@ module.exports = function (grunt) {
           report: 'min'
         },
         src: '<%= concat.main.dest %>',
-        dest: 'public/js/main.min.js'
+        dest: 'assets/js/main.min.js'
       }
     },
 
@@ -93,7 +93,7 @@ module.exports = function (grunt) {
           banner: '<%= banner %>'
         },
         src: ['less/@main.less'],
-        dest: 'public/css/main.min.css'
+        dest: 'assets/css/main.min.css'
       },
       minify: {
         options: {
