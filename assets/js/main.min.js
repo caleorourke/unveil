@@ -1,7 +1,7 @@
 /* 
  * Copyright 2015-2016 Michael O'Rourke
  * 
- * Updated 2016.09.18
+ * Updated 2016.09.19
  * Code and documentation licensed under the MIT license
  * 
  */
