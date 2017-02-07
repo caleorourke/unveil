@@ -3,12 +3,12 @@
 # * Wrap quotes around words or phrases that contain commas or apostrophes.
 #
 
-hp:         Hewlett Packard Enterprise
-softlayer:  "SoftLayer, an IBM Company"
-neopost:    Neopost
-sprint:     Sprint
-liberty:    Liberty University
-scrum:      Scrum Alliance
-pragmatic:  Pragmatic Marketing
-pmi:        Project Management Institute
 comptia:    CompTIA
+hp:         Hewlett Packard Enterprise
+liberty:    Liberty University
+neopost:    Neopost
+pmi:        Project Management Institute
+pragmatic:  Pragmatic Marketing
+scrum:      Scrum Alliance
+softlayer:  "SoftLayer, an IBM Company"
+sprint:     Sprint
