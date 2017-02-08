@@ -88,6 +88,7 @@ p {
     .i-transition(color .5s);
     .i-underline-text(@default-color);
     &:hover,
+    &:focus,
     &:active {
       .i-underline-text(@default-color-hover);
       color: @default-color-hover;
@@ -101,6 +102,7 @@ a {
   text-decoration: none;
   background-color: transparent;
   &:hover,
+  &:focus,
   &:active {
     color: @default-color-hover;
     text-decoration: none;
