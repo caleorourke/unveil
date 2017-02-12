@@ -25,7 +25,7 @@ branches:
 notifications:
   email: false
 
-sudo: false
+sudo: true
 
 after_install:
   - grunt test
