@@ -11,7 +11,7 @@ before_install:
 
 install:
   - travis_retry npm install -g grunt-cli
-  - travis_retry npm install -g
+  - travis_retry npm install
   - travis_retry grunt install
 
 script:
