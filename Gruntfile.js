@@ -26,7 +26,8 @@ module.exports = function (grunt) {
         command: ['gem update --system --no-document',
                   'gem install github-pages'].join('&&'),
         options: {
-          stdout: true
+          stdout: true,
+          failOnError: false
         }
       }
     },

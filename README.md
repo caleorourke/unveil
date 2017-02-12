@@ -87,6 +87,15 @@ $ rm -r node_modules
 $ npm install
 ~~~
 
+#### SyntaxError
+If a 'SyntaxError: Use of const in strict mode' error occurs, run the following commands:
+
+~~~bash
+sudo npm cache clean -f // clears NPM cache
+sudo npm install -g n // installs a little helper called "n"
+sudo n stable // installs latest stable Node.js
+~~~
+
 ### Grunt
 Run `grunt install` to install the latest versions.
 
