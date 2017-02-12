@@ -10,7 +10,7 @@ before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 env:
-  - TRAVIS_NODE_VERSION="4"
+  - TRAVIS_NODE_VERSION="5"
 
 install:
   - travis_retry npm install -g grunt-cli
