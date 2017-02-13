@@ -10,7 +10,7 @@ rvm:
 #  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 install:
-  - npm install grunt-cli
+  - npm install grunt
   - npm install npm@latest
   - grunt install
 
