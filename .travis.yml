@@ -11,6 +11,7 @@ rvm:
 
 install:
   - npm install grunt
+  - npm install grunt-cli
   - npm install npm@latest
   - grunt install
 
