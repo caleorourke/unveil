@@ -12,7 +12,7 @@ rvm:
 
 install:
   - travis_retry npm install -g grunt-cli
-  - travis_retry npm install npm@latest -g
+  - travis_retry npm install npm@latest
   - travis_retry grunt install
 
 script:
