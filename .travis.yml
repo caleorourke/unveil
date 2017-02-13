@@ -6,12 +6,12 @@ rvm:
   - 2.2.1
   - 2.2.2
 
-before_install:
-  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+#before_install:
+#  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 install:
   - npm install grunt-cli
-  - npm install
+  - npm install npm@latest
   - grunt install
 
 script:
