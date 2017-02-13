@@ -6,14 +6,14 @@ rvm:
   - 2.2.1
   - 2.2.2
 
-#before_install:
-#  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_install:
+  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 
 install:
   - travis_retry npm install -g grunt-cli
   - travis_retry npm install npm@latest
-  - travis_retry grunt install -g
+  - travis_retry grunt install
 
 script:
   - grunt build
