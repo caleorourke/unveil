@@ -127,8 +127,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-shell');
 
-  grunt.registerTask('build',         ['clean', 'concat', 'uglify', 'recess:minify']);
-  grunt.registerTask('install',       ['shell:gems']);
-  grunt.registerTask('serve',         ['build', 'pages:start']);
-  grunt.registerTask('test',          ['pages:test']);
+  grunt.registerTask('build',   ['clean', 'concat', 'uglify', 'recess:minify']);
+  grunt.registerTask('install', ['shell:gems']);
+  grunt.registerTask('serve',   ['build', 'pages:start']);
+  grunt.registerTask('test',    ['pages:test']);
 };

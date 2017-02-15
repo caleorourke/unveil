@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/caleorourke/unveil.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "grunt": "1.0.1"
   },
   "devDependencies": {
