@@ -12,7 +12,6 @@ before_install:
 install:
   - npm update
   - npm install -g grunt-cli
-  - grunt install
 
 script:
   - grunt build
@@ -27,4 +26,5 @@ notifications:
 sudo: false
 
 after_install:
+  - grunt install
   - grunt test
