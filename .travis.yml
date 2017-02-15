@@ -10,8 +10,8 @@ before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 install:
-  - npm install npm@latest
-  - npm install grunt-cli
+  - npm update
+  - npm install -g grunt-cli
   - grunt install
 
 script:
@@ -24,7 +24,7 @@ branches:
 notifications:
   email: false
 
-sudo: true
+sudo: false
 
 after_install:
   - grunt test
