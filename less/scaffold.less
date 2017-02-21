@@ -55,6 +55,7 @@ html {
 a,
 button,
 figure {
+  ms-touch-action: manipulation;
   touch-action: manipulation;
 }
 
@@ -87,7 +88,6 @@ p {
   a {
     .i-transition(color .5s);
     .i-underline-text(@default-color);
-    &:focus,
     &:hover,
     &:active {
       .i-underline-text(@default-color-hover);
@@ -101,7 +101,6 @@ a {
   color: @default-color;
   text-decoration: none;
   background-color: transparent;
-  &:focus,
   &:hover,
   &:active {
     color: @default-color-hover;
