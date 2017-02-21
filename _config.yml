@@ -1,17 +1,15 @@
-#
 # * _config.yml
 # *
 # * Localized configuration file. Config values should always be defined in _config.yml. Do not edit
 # * existing config values. Use spaces only, no tabs. Wrap quotes around words or phrases that contain
 # * commas.
-#
 
 # ==============================
 # Project
 # ==============================
 
 title:          Michael O'Rourke
-headline:       'Product Manager for Cloud, Web, & Digital marketplaces.'
+headline:       'Product Manager for Cloud, Web, & Digital marketplaces'
 headline_dep:   I define and design cloud products.
 tagline:        Product Management and Strategic Marketing
 role:           Product Manager
