@@ -5,6 +5,7 @@ rvm:
   - 2.1.5
   - 2.2.1
   - 2.2.2
+  - 2.2.3
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true

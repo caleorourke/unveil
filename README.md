@@ -11,7 +11,7 @@ Requires the minimum versions of Node and Ruby below.
 * [Node 0.10.30](http://nodejs.org/download)
 * [Ruby 2.0](http://www.ruby-lang.org/en/installation)
 
-Run the commands below to determine which versions are currently installed.
+Run the commands below to determine if the versions are currently installed.
 
 ~~~bash
 # each command returns a version number

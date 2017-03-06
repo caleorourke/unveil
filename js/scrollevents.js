@@ -32,7 +32,6 @@ jQuery(document).ready(function($) {
       var currentTop = $(window).scrollTop();
 
       // Check if user is scrolling up
-      //
       if (currentTop < this.previousTop) {
         // If scrolling up
         //
@@ -42,7 +41,7 @@ jQuery(document).ready(function($) {
           $('.nav-header').removeClass('is-visible is-sticky');
         }
       } else if (currentTop > this.previousTop) {
-        // If scrolling down...
+        // If scrolling down
         //
         $('.nav-header').addClass('is-visible'); /* previously removeClass */
         if (currentTop > headerHeight && !$('.nav-header').hasClass('is-sticky')) {

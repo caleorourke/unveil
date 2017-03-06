@@ -10,8 +10,8 @@
 
 title:          Michael O'Rourke
 headline:       'Product Manager for Cloud, Web, & Digital marketplaces'
-headline_dep:   I define and design cloud products.
-tagline:        Product Management and Strategic Marketing
+headline_dep:   I define and design products.
+tagline:        Product Management and Marketing Technologist
 role:           Product Manager
 license:        MIT
 
@@ -35,7 +35,6 @@ permalink:      pretty
 exclude:        ["Gruntfile.js",
                  "js",
                  "less",
-                 "LICENSE",
                  "node_modules",
                  "package.json",
                  "README.md"]

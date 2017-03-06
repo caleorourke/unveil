@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
     goal:       100, // 100%
     size:       80,  // in px
     speed:      40,  // speed of 1/100
-    barcolor:   '#1b8ade',
+    barcolor:   '#07b57a',
     barsize:    '2',
     trackcolor: '#f7f7f7',
     fillcolor:  'none',
