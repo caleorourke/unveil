@@ -3,12 +3,12 @@
 <a href="http://github.com/caleorourke/unveil/blob/gh-pages/LICENSE" target="_blank"><img src="http://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"></a>
 
 ## Introduction
-One page template designed specifically for hosting on [GitHub Pages](http://pages.github.com) and serving locally using [Jekyll](http://jekyllrb.com).
+One page template designed for hosting on [GitHub Pages](http://pages.github.com) and serving locally using [Jekyll](http://jekyllrb.com).
 
 ## Prerequisites
-Requires the minimum versions of Node and Ruby below.
+Requires the minimum versions of Node.js and Ruby below.
 
-* [Node 0.10.30](http://nodejs.org/download)
+* [Node.js 0.10.30](http://nodejs.org/download)
 * [Ruby 2.0](http://www.ruby-lang.org/en/installation)
 
 Run the commands below to determine if the versions are currently installed.
@@ -27,23 +27,26 @@ $ git clone -b gh-pages https://github.com/caleorourke/unveil.git
 $ cd unveil
 ~~~
 
-Install Grunt and dev dependencies for Node.
+### Grunt Installation
+[Grunt](http://gruntjs.com) is scripted for installing Node and Ruby dependencies. You must install Grunt's CLI, thought, first.
+
+Run the commands below to install Grunt and the dev dependencies for Node.js.
 
 ~~~bash
 $ npm install -g grunt-cli
 $ npm install
 ~~~
 
-Install Jekyll and other Ruby runtime dependencies.
+### Jekyll Installation
+Grunt is also scripted for installing Jekyll and other runtime dependencies.
 
 ~~~bash
 $ grunt install
 ~~~
 
-## Grunt
-[Grunt](http://gruntjs.com) is leveraged as a harness for installing Node and Ruby dependencies, in addition to serving the site locally.
+## Commands
+Aside from scripted install types, Grunt includes a number of scripts to serve the site locally.
 
-### Commands
 Run any of these commands to initiate a task.
 
 * `$ grunt build`
