@@ -23,6 +23,7 @@ jQuery(document).ready(function($) {
    */
   var MQL = 1170;
 
+
   if ($(window).width() > MQL) {
     var headerHeight = $('.nav-header').height();
     $(window).on('scroll', {
