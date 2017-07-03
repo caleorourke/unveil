@@ -49,7 +49,6 @@ module.exports = function (grunt) {
               'js/plugins/jquery-textillate.js',
               'js/plugins/jquery-debounce.js',
               'js/plugins/bootstrap-transition.js',
-              'js/plugins/bootstrap-collapse.js',
               'js/plugins/bootstrap-modal.js'],
         dest: 'assets/js/plugin.min.js'
       },
