@@ -6,7 +6,7 @@
 One page template designed for hosting on [GitHub Pages](http://pages.github.com) and serving locally using [Jekyll](http://jekyllrb.com).
 
 ## Prerequisites
-Requires the minimum versions of Node.js and Ruby below.
+Requires the *minimum* versions of Node.js and Ruby below.
 
 * [Node.js 0.10.30](http://nodejs.org/download)
 * [Ruby 2.0](http://www.ruby-lang.org/en/installation)
@@ -20,24 +20,22 @@ $ ruby -v
 ~~~
 
 ## Installation
-Clone from the `gh-pages` branch on GitHub and go into its directory.
+Clone from `gh-pages` on GitHub and go into its directory.
 
 ~~~
 $ git clone -b gh-pages https://github.com/caleorourke/unveil.git
 $ cd unveil
 ~~~
 
-### Grunt Installation
-[Grunt](http://gruntjs.com) is scripted for installing Node and Ruby dependencies. You must install Grunt's CLI, thought, first.
-
-Run the commands below to install Grunt and the dev dependencies for Node.js.
+### Grunt
+[Grunt](http://gruntjs.com) is scripted for installing Node and Ruby dependencies. You must install Grunt CLI, thought, first. Run the commands to install Grunt and dev dependencies for Node.js.
 
 ~~~bash
-$ npm install -g grunt-cli
-$ npm install
+$ sudo npm install -g grunt-cli
+$ sudo npm install
 ~~~
 
-### Jekyll Installation
+### Jekyll
 Grunt is also scripted for installing Jekyll and other runtime dependencies.
 
 ~~~bash
@@ -45,9 +43,7 @@ $ grunt install
 ~~~
 
 ## Commands
-Aside from scripted install types, Grunt includes a number of scripts to serve the site locally.
-
-Run any of these commands to initiate a task.
+Aside from scripted install types, Grunt includes a number of scripts to serve the site locally. Run any of these commands to initiate a task.
 
 * `$ grunt build`
 * `$ grunt install`
@@ -83,20 +79,19 @@ Run any of these commands to initiate a task.
 Dependencies for Node and Grunt are updated often by their original authors. To install the latest versions, browse the sections below.
 
 ### Node.js
-Run `sudo npm update` to install the latest versions. Should this fail for any reason, run the following commands to delete the original `node_modules` directory and build a new one.
+Run `sudo npm update` to install the latest versions. Should this fail for any reason, run the commands to delete the original directory and build a new one.
 
 ~~~bash
-$ rm -r node_modules
-$ npm install
+$ sudo rm -r node_modules // deletes node_modules
+$ sudo npm install // builds node_modules again
 ~~~
 
-#### SyntaxError
-If a 'SyntaxError: Use of const in strict mode' error occurs, run the following commands:
+If a "SyntaxError: Use of const in strict mode" error occurs, run the commands.
 
 ~~~bash
-sudo npm cache clean -f // clears NPM cache
-sudo npm install -g n // installs a little helper called "n"
-sudo n stable // installs latest stable Node.js
+$ sudo npm cache clean -f // clears NPM cache
+$ sudo npm install -g n // installs a little helper called "n"
+$ sudo n stable // installs latest stable Node.js
 ~~~
 
 ### Grunt
