@@ -1,7 +1,7 @@
 /*
  * useragent.js
  *
- * Updated 2015.11.04
+ * Updated 2016.07.06
  * Code and documentation licensed under the MIT license
  *
  */
@@ -27,10 +27,8 @@
   });
 })(jQuery);
 
-/**
- * Function for all browsers with outdated ECMAScript
- * -------------------------------------------------------
- */
+// BROWSER FUNCTION FOR OUTDATED ECMASCRIPT
+// ========================================
 
 if(typeof String.prototype.trim !== 'function') {
   String.prototype.trim = function() {
@@ -38,10 +36,8 @@ if(typeof String.prototype.trim !== 'function') {
   };
 }
 
-/**
- * Function for older jQuery versions
- * -------------------------------------------------------
- */
+// FUNCTION FOR OLDER JQUERY VERSIONS
+// ==================================
 
 if(typeof(jQuery.isNumeric) !== 'function') {
   jQuery.isNumeric = function(obj) {
