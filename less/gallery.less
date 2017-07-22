@@ -41,7 +41,7 @@
         padding: 10px 20px;
         color: @white;
         text-align: center;
-        background-color: @overlay-color;
+        background-color: @overlay-color-darken;
         opacity: 1;
         > .gallery-item--headline {
           .i-flex-item-align(center);
@@ -51,9 +51,9 @@
           .i-flex-positive(3);
           strong {
             font-family: @font-family-sans;
-            font-size: 2.2rem;
+            font-size: 2.25rem;
             font-weight: @font-weight-xbold;
-            line-height: @line-height-xsmall;
+            line-height: @line-height-normal;
             text-transform: uppercase;
             @media (max-width: 992px) {
               font-size: 2.1rem;
@@ -67,7 +67,16 @@
         }
         &.gallery-item--darken {
           background-color: @overlay-color-darken;
+        } /*
+        &.gallery-item--purple {
+          background-color: @overlay-color-purple;
         }
+        &.gallery-item--orange {
+          background-color: @overlay-color-orange;
+        }
+        &.gallery-item--blue {
+          background-color: @overlay-color-blue;
+        } */
       }
     }
 
