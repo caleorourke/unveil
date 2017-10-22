@@ -1,0 +1,15 @@
+#
+# * Localized data file. Do not edit existing values. Use spaces only, no tabs.
+# * Wrap quotes around words or phrases that contain commas or apostrophes.
+#
+
+comptia:    CompTIA
+hp:         Hewlett Packard Enterprise
+liberty:    Liberty University
+mf:         Micro Focus
+neopost:    Neopost
+pmi:        Project Management Institute
+pragmatic:  Pragmatic Marketing
+scrum:      Scrum Alliance
+softlayer:  "SoftLayer, an IBM Company"
+sprint:     Sprint
