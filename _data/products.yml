@@ -15,6 +15,10 @@ cloudant:
   title: "Cloudant"
   categories: "PaaS, Big Data, NoSQL"
 
+cloud-tracker:
+  title: "Cloud Tracker"
+  categories: "PaaS, Monitoring, API, Cloud Servers"
+
 imeter:
   title: "iMeter"
   categories: "PaaS, Payment Gateway, Storefront"
